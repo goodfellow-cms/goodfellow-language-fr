@@ -1,0 +1,18 @@
+# Keeps the actions this repository's workflows use, each pinned to a commit, and the Goodfellow release the language pack
+# is checked against (package-lock.json), up to date.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      goodfellow:
+        patterns: ["@goodfellow-cms/*"]
