@@ -11,6 +11,7 @@
     "url": "git+https://github.com/goodfellow-cms/goodfellow-language-fr.git"
   },
   "bugs": "https://github.com/goodfellow-cms/goodfellow-language-fr/issues",
+  "funding": { "type": "github", "url": "https://github.com/sponsors/goodfellow-cms" },
   "type": "module",
   "files": ["goodfellow-language.json"],
   "scripts": {
