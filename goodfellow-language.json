@@ -90,6 +90,12 @@
     "Always": {
       "text": "Toujours"
     },
+    "And the ones under them": {
+      "text": "Et ceux en dessous"
+    },
+    "Announcement bar": {
+      "text": "Bandeau d'annonce"
+    },
     "Another calendar's address (.ics), such as a public Google Calendar's": {
       "text": "L'adresse d'un autre calendrier (.ics), comme celle d'un agenda Google public"
     },
@@ -113,6 +119,9 @@
     },
     "Ask for a first name too": {
       "text": "Demander aussi un prénom"
+    },
+    "Ask search engines not to follow them": {
+      "text": "Demander aux moteurs de recherche de ne pas les suivre"
     },
     "Audio": {
       "text": "Audio"
@@ -230,6 +239,9 @@
     },
     "Choose…": {
       "text": "Choisir…"
+    },
+    "Close button's name, for screen readers": {
+      "text": "Nom du bouton de fermeture, pour les lecteurs d'écran"
     },
     "Code": {
       "text": "Code"
@@ -396,6 +408,9 @@
     "First": {
       "text": "Premier"
     },
+    "First day it shows (such as 2026-12-24; empty for now)": {
+      "text": "Premier jour où il s'affiche (comme 2026-12-24 ; vide pour maintenant)"
+    },
     "First name's label": {
       "text": "Libellé du prénom"
     },
@@ -561,6 +576,12 @@
     "Large": {
       "text": "Grand"
     },
+    "Large where the page has a picture": {
+      "text": "Grande quand la page a une image"
+    },
+    "Last day it shows (such as 2027-01-06; empty for no end)": {
+      "text": "Dernier jour où il s'affiche (comme 2027-01-06 ; vide pour sans fin)"
+    },
     "Last row is a footer": {
       "text": "La dernière ligne est un pied de tableau"
     },
@@ -597,11 +618,17 @@
     "Link beside the heading, such as \"See all\" (leave empty for none)": {
       "text": "Lien à côté du titre, comme « Tout voir » (laissez vide pour aucun)"
     },
+    "Link name, for links to this heading (made from its text if left empty)": {
+      "text": "Nom du lien, pour les liens vers ce titre (formé à partir de son texte si laissé vide)"
+    },
     "Link text": {
       "text": "Texte du lien"
     },
     "Link to": {
       "text": "Lien vers"
+    },
+    "Link to (optional)": {
+      "text": "Lien vers (facultatif)"
     },
     "Link to every item, beside the choices (\"All\")": {
       "text": "Lien vers tous les éléments, à côté des choix (« Tous »)"
@@ -610,6 +637,9 @@
       "text": "Lien sous la liste, comme « Tout voir » (laissez vide pour aucun)"
     },
     "Link's text": {
+      "text": "Texte du lien"
+    },
+    "Link's words": {
       "text": "Texte du lien"
     },
     "LinkedIn": {
@@ -662,6 +692,12 @@
     },
     "Main button links to": {
       "text": "Le bouton principal renvoie vers"
+    },
+    "Main color": {
+      "text": "Couleur principale"
+    },
+    "Main headings": {
+      "text": "Titres principaux"
     },
     "Make it safe": {
       "text": "Le sécuriser"
@@ -822,11 +858,17 @@
     "Only pages under this address (empty for every page)": {
       "text": "Seulement les pages sous cette adresse (vide pour toutes les pages)"
     },
+    "Only the items this one links to, in": {
+      "text": "Seulement les éléments vers lesquels celui-ci renvoie, dans"
+    },
     "Open at first": {
       "text": "Ouvert au départ"
     },
     "Open in a new tab": {
       "text": "Ouvrir dans un nouvel onglet"
+    },
+    "Open pictures larger when clicked": {
+      "text": "Agrandir les images au clic"
     },
     "Order": {
       "text": "Ordre"
@@ -891,6 +933,9 @@
     "Picture shown before it plays": {
       "text": "Image affichée avant la lecture"
     },
+    "Picture size when shared": {
+      "text": "Taille de l'image quand la page est partagée"
+    },
     "Picture's side": {
       "text": "Côté de l'image"
     },
@@ -951,6 +996,9 @@
     "Questions": {
       "text": "Questions"
     },
+    "Questions and answers": {
+      "text": "Questions et réponses"
+    },
     "Quick links": {
       "text": "Liens rapides"
     },
@@ -987,6 +1035,9 @@
     "Search engines": {
       "text": "Moteurs de recherche"
     },
+    "Search engines follow them": {
+      "text": "Les moteurs de recherche les suivent"
+    },
     "Search this site": {
       "text": "Rechercher sur ce site"
     },
@@ -998,6 +1049,9 @@
     },
     "Second button links to": {
       "text": "Le second bouton renvoie vers"
+    },
+    "Second color": {
+      "text": "Seconde couleur"
     },
     "Secondary": {
       "text": "Secondaire"
@@ -1044,6 +1098,12 @@
     "Show in search results": {
       "text": "Afficher dans les résultats de recherche"
     },
+    "Show none": {
+      "text": "N'en afficher aucun"
+    },
+    "Show some of the page's text": {
+      "text": "Afficher une partie du texte de la page"
+    },
     "Show the address": {
       "text": "Afficher l'adresse"
     },
@@ -1089,6 +1149,9 @@
     "Social post": {
       "text": "Publication sur un réseau social"
     },
+    "Soft": {
+      "text": "Atténuée"
+    },
     "Sound file": {
       "text": "Fichier son"
     },
@@ -1119,6 +1182,9 @@
     "Start button": {
       "text": "Bouton de lecture"
     },
+    "Stay in view as the page scrolls": {
+      "text": "Rester visible quand la page défile"
+    },
     "Stop button": {
       "text": "Bouton d'arrêt"
     },
@@ -1145,6 +1211,9 @@
     },
     "Sunday": {
       "text": "Dimanche"
+    },
+    "Synced block": {
+      "text": "Bloc synchronisé"
     },
     "TSX": {
       "text": "TSX"
@@ -1178,6 +1247,9 @@
     },
     "Text link": {
       "text": "Lien texte"
+    },
+    "Text under the title in search results": {
+      "text": "Texte sous le titre dans les résultats de recherche"
     },
     "Text when the feed can't be read": {
       "text": "Texte quand le flux ne peut pas être lu"
@@ -1236,6 +1308,9 @@
     "This item's collection": {
       "text": "La collection de cet élément"
     },
+    "This page's links": {
+      "text": "Les liens de cette page"
+    },
     "Time, such as 18:00, in the site's time zone": {
       "text": "Heure, par exemple 18:00, dans le fuseau horaire du site"
     },
@@ -1283,6 +1358,9 @@
     },
     "Vimeo": {
       "text": "Vimeo"
+    },
+    "Visitors can close it": {
+      "text": "Les visiteurs peuvent le fermer"
     },
     "Warning": {
       "text": "Avertissement"
@@ -2654,6 +2732,10 @@
       "source": "47601a90",
       "text": "Ne pas retirer {name}"
     },
+    "blocks.usedSyncedBlock": {
+      "source": "6ebf11e3",
+      "text": "le bloc synchronisé {title}"
+    },
     "blocks.usedTemplate": {
       "source": "ae10607d",
       "text": "la mise en page de {name}"
@@ -2778,6 +2860,10 @@
       "source": "b9789776",
       "text": "En mode sombre, le texte en « {text} » est difficile à lire sur « {background} » : son contraste est de {ratio} pour 1, et un texte a besoin d'au moins 4,5 pour 1."
     },
+    "checks.missing-item": {
+      "source": "6865b171",
+      "text": "{place} renvoie vers {target} dans {collection}, qui n'existe plus."
+    },
     "checks.missing-media": {
       "source": "d121cf2a",
       "text": "{place} utilise {target}, qui n'est pas dans la médiathèque."
@@ -2786,9 +2872,17 @@
       "source": "66803b8c",
       "text": "{place} renvoie vers {target}, qui n'est pas une page du site."
     },
+    "checks.missing-synced-block": {
+      "source": "ba47fc23",
+      "text": "{place} place le bloc synchronisé {target}, que le site n'a plus."
+    },
     "checks.missing-translation": {
       "source": "661d6166",
       "text": "{place} n'a pas encore de traduction en {language}. Les visiteurs qui lisent en {language} sont envoyés vers sa page d'accueil à la place."
+    },
+    "checks.nested-synced-block": {
+      "source": "bd8572c8",
+      "text": "{place} contient un bloc Bloc synchronisé. Les blocs synchronisés ne peuvent pas afficher d'autres blocs synchronisés : retirez-le."
     },
     "checks.no-alt": {
       "source": "fdcb3dda",
@@ -2842,6 +2936,10 @@
       "source": "fad7116f",
       "text": "Les Paramètres du site"
     },
+    "checks.place.synced": {
+      "source": "7ce8c853",
+      "text": "Le bloc synchronisé « {title} »"
+    },
     "checks.publishAnyway": {
       "source": "7d667e89",
       "text": "Publier quand même"
@@ -2853,6 +2951,10 @@
     "checks.skipped-heading.first": {
       "source": "921e204a",
       "text": "{place} commence par le titre « {text} », au niveau {level}. Commencez par le titre de la page (niveau 1) ou une section (niveau 2)."
+    },
+    "checks.unchosen-synced-block": {
+      "source": "51728975",
+      "text": "{place} contient un bloc Bloc synchronisé qui ne dit pas quel bloc synchronisé il affiche. Choisissez-en un dans ses réglages, ou retirez-le."
     },
     "checks.unsafe-link": {
       "source": "61f02a1a",
@@ -3009,6 +3111,10 @@
     "collectionSettings.deleteBody": {
       "source": "e17ca321",
       "text": "{name} et tout ce qu'elle contient ({count} éléments) seront retirés du site, avec leurs pages. Les listes de collection qui l'affichent seront vides."
+    },
+    "collectionSettings.deleteLinked": {
+      "source": "ddd86835",
+      "text": "{name} ne peut pas être supprimée tant que d'autres collections renvoient vers ses éléments : {collections}. Retirez d'abord ces champs."
     },
     "collectionSettings.deleteMessage": {
       "source": "c34f9205",
@@ -3578,6 +3684,14 @@
       "source": "61c4d215",
       "text": "{title} sera retiré de {name}, et sa page à {path} du site. Si quelque chose sur le site y renvoie, ces liens doivent d'abord être modifiés."
     },
+    "deleteEntry.linked": {
+      "source": "f6ce7f3c",
+      "text": "Ces éléments renvoient vers lui, et leurs liens vers lui seront retirés :"
+    },
+    "deleteEntry.linkedMore": {
+      "source": "bdb1ff6a",
+      "text": "et {count} de plus"
+    },
     "deleteEntry.message": {
       "source": "ebe49870",
       "text": "Supprimer {entry} « {title} »"
@@ -3685,6 +3799,10 @@
     "domain.admin.elsewhere": {
       "source": "a81a22d9",
       "text": "Ajoutez aussi cette adresse au projet du site sur {host}, dans ses domaines personnalisés, pour qu'il y serve aussi le site. La construction du site écrit les règles de {host} pour elle."
+    },
+    "domain.admin.elsewhereGuarded": {
+      "source": "e049b20e",
+      "text": "Ajoutez aussi cette adresse au site sur {host}, comme alias de domaine, pour qu'il y serve aussi le site. {host} ne peut pas envoyer de règles pour une seule adresse, c'est donc le script par lequel commence chaque page du site qui les en tient à l'écart, comme sur GitLab Pages."
     },
     "domain.admin.field": {
       "source": "3bb780ec",
@@ -3809,6 +3927,14 @@
     "domain.elsewhere.cloudflare": {
       "source": "7ada7f35",
       "text": "Sur Cloudflare Pages : ouvrez le projet du site, allez dans Custom domains et configurez le domaine. Pour un domaine comme www.example.org, Cloudflare affiche un enregistrement CNAME à ajouter chez votre registraire. Pour example.org lui-même, le domaine doit utiliser les serveurs de noms de Cloudflare, ce que Cloudflare vous explique pas à pas. Une fois que le site fonctionne à sa nouvelle adresse, indiquez-la dans Général → Adresse du site et publiez."
+    },
+    "domain.elsewhere.netlify": {
+      "source": "ca8eb91a",
+      "text": "Sur Netlify : ouvrez le site, allez dans Domain management et ajoutez le domaine. Netlify affiche les enregistrements à ajouter chez votre registraire, ou propose de gérer lui-même le DNS du domaine. Une fois que le site fonctionne à sa nouvelle adresse, indiquez-la dans Général → Adresse du site et publiez."
+    },
+    "domain.elsewhere.other": {
+      "source": "0203489f",
+      "text": "Sur tout autre hébergeur : connectez le domaine dans les réglages de l'hébergeur, comme il l'explique. Une fois que le site fonctionne à sa nouvelle adresse, indiquez-la dans Général → Adresse du site et publiez."
     },
     "domain.elsewhere.vercel": {
       "source": "b3289b4f",
@@ -4146,6 +4272,18 @@
       "source": "539b9c10",
       "text": "Retour à {name}"
     },
+    "editEntry.images.down": {
+      "source": "d2822246",
+      "text": "Déplacer après"
+    },
+    "editEntry.images.remove": {
+      "source": "6de35316",
+      "text": "Retirer"
+    },
+    "editEntry.images.up": {
+      "source": "3c15b670",
+      "text": "Déplacer avant"
+    },
     "editEntry.invalidEvent": {
       "source": "492185ed",
       "text": "Vérifiez {fields} : un événement doit se terminer après avoir commencé."
@@ -4153,6 +4291,26 @@
     "editEntry.invalidSchedule": {
       "source": "194004c1",
       "text": "Vérifiez quand c'est sur le site : chaque heure demande une date et une heure, et ce ne peut être masqué qu'après avoir été affiché."
+    },
+    "editEntry.items.empty": {
+      "source": "424ba885",
+      "text": "{name} n'a encore rien vers quoi renvoyer."
+    },
+    "editEntry.items.missing": {
+      "source": "dfd68b11",
+      "text": "La collection vers laquelle ce champ renvoie n'est plus sur le site."
+    },
+    "editEntry.items.none": {
+      "source": "ee053b4b",
+      "text": "Rien dans {name} ne correspond."
+    },
+    "editEntry.items.remove": {
+      "source": "d58e6c12",
+      "text": "Retirer {title}"
+    },
+    "editEntry.items.search": {
+      "source": "041032aa",
+      "text": "Rechercher dans {name}"
     },
     "editEntry.message": {
       "source": "a1ab93d2",
@@ -4626,9 +4784,21 @@
       "source": "eadf0da0",
       "text": "Ajouter un champ"
     },
+    "fields.addGroupField": {
+      "source": "ee9981d5",
+      "text": "Ajouter un champ à chaque ligne"
+    },
     "fields.addOption": {
       "source": "87c68997",
       "text": "Ajouter un choix"
+    },
+    "fields.collectionRequired": {
+      "source": "8cb6629e",
+      "text": "Choisissez la collection vers laquelle il renvoie."
+    },
+    "fields.groupFields": {
+      "source": "3833866f",
+      "text": "Les champs de chaque ligne"
     },
     "fields.hint": {
       "source": "66ffa3cd",
@@ -4641,6 +4811,14 @@
     "fields.label": {
       "source": "9eccf29d",
       "text": "Libellé"
+    },
+    "fields.linksTo": {
+      "source": "03b8976e",
+      "text": "Renvoie vers des éléments de"
+    },
+    "fields.multiple": {
+      "source": "27b3e9ac",
+      "text": "Peut renvoyer vers plusieurs"
     },
     "fields.newLabel": {
       "source": "68a163fd",
@@ -4690,9 +4868,25 @@
       "source": "798d86e5",
       "text": "Date et heure, pour les événements"
     },
+    "fields.type.file": {
+      "source": "2b183663",
+      "text": "Fichier"
+    },
+    "fields.type.group": {
+      "source": "435d9768",
+      "text": "Groupe répété (lignes de quelques champs)"
+    },
     "fields.type.image": {
       "source": "76f16e96",
       "text": "Image (URL)"
+    },
+    "fields.type.images": {
+      "source": "c34ff823",
+      "text": "Plusieurs images"
+    },
+    "fields.type.item": {
+      "source": "5af10316",
+      "text": "Lien vers des éléments d'une collection"
     },
     "fields.type.link": {
       "source": "8e08e589",
@@ -4722,6 +4916,118 @@
       "source": "be34300a",
       "text": "Texte long"
     },
+    "fields.type.yesno": {
+      "source": "131aac9c",
+      "text": "Oui ou non"
+    },
+    "font.add.allowed": {
+      "source": "ab71b38e",
+      "text": "J'ai le droit d'utiliser cette police sur un site web"
+    },
+    "font.add.allowedInfo": {
+      "source": "971ff647",
+      "text": "À propos des licences de polices"
+    },
+    "font.add.allowedTip": {
+      "source": "653b5ced",
+      "text": "La licence d'une police dit où vous pouvez l'utiliser. Beaucoup de polices achetées pour l'impression ou pour un ordinateur ne permettent pas les sites web, alors vérifiez que la vôtre le permet (souvent appelée licence web). Choisissez pour en savoir plus."
+    },
+    "font.add.button": {
+      "source": "62e85329",
+      "text": "Ajouter la police"
+    },
+    "font.add.category": {
+      "source": "5ad04111",
+      "text": "Type de police"
+    },
+    "font.add.categoryHint": {
+      "source": "21647d3b",
+      "text": "Les pages affichent une police du même type en attendant que celle-ci se charge."
+    },
+    "font.add.checking": {
+      "source": "14e83b99",
+      "text": "Vérification des fichiers…"
+    },
+    "font.add.duplicate": {
+      "source": "e1a0ad73",
+      "text": "Deux fichiers ont la même graisse et le même style. Modifiez-en un, ou retirez-le."
+    },
+    "font.add.family": {
+      "source": "8c7b5f35",
+      "text": "Nom de la police"
+    },
+    "font.add.familyHint": {
+      "source": "6221cb70",
+      "text": "Tel que les menus de polices l'affichent, comme Brandon Grotesque. Lettres, chiffres et espaces."
+    },
+    "font.add.familyInvalid": {
+      "source": "64e10319",
+      "text": "Utilisez des lettres, des chiffres et des espaces, jusqu'à 60 caractères."
+    },
+    "font.add.familyTaken": {
+      "source": "06c4c5fc",
+      "text": "Vous avez déjà une police nommée {family}. Retirez-la d'abord, ou choisissez un autre nom."
+    },
+    "font.add.file": {
+      "source": "2b183663",
+      "text": "Fichier"
+    },
+    "font.add.files": {
+      "source": "d45214cc",
+      "text": "Fichiers de police (WOFF2)"
+    },
+    "font.add.filesHint": {
+      "source": "7bdd424a",
+      "text": "Choisissez tous les fichiers de la police à la fois : un pour chaque graisse et style, comme Regular, Bold et Italic, ou un seul fichier de police variable. Jusqu'à 5 Mo chacun."
+    },
+    "font.add.full": {
+      "source": "3d2054b2",
+      "text": "Un site peut avoir jusqu'à {count} polices à lui. Retirez-en une pour en ajouter une autre."
+    },
+    "font.add.italic": {
+      "source": "8db0c08d",
+      "text": "Italique"
+    },
+    "font.add.needAllowed": {
+      "source": "d5133a6f",
+      "text": "Cochez la case pour indiquer que vous avez le droit d'utiliser cette police sur un site web."
+    },
+    "font.add.notWoff2": {
+      "source": "4c5aa478",
+      "text": "{name} n'est pas une police WOFF2. Le créateur ou le vendeur de la police propose généralement des fichiers WOFF2 pour les sites web."
+    },
+    "font.add.removeFile": {
+      "source": "feab7316",
+      "text": "Retirer {name}"
+    },
+    "font.add.style": {
+      "source": "5467ec76",
+      "text": "Style"
+    },
+    "font.add.title": {
+      "source": "b02309b0",
+      "text": "Ajouter une police"
+    },
+    "font.add.tooLarge": {
+      "source": "4857e2d6",
+      "text": "{name} dépasse 5 Mo."
+    },
+    "font.add.tooMany": {
+      "source": "b6d72c2d",
+      "text": "Une police peut avoir jusqu'à {count} fichiers."
+    },
+    "font.add.unreadable": {
+      "source": "2dedbd23",
+      "text": "{name} n'a pas pu être lu comme une police. Il est peut-être endommagé."
+    },
+    "font.add.upright": {
+      "source": "8d3aa142",
+      "text": "Droit"
+    },
+    "font.add.weight": {
+      "source": "993014d9",
+      "text": "Graisse"
+    },
     "font.category.display": {
       "source": "5a05d9b5",
       "text": "Décorative"
@@ -4750,6 +5056,10 @@
       "source": "4a84e961",
       "text": "Police standard du visiteur"
     },
+    "font.google.group": {
+      "source": "27efa010",
+      "text": "Google Fonts"
+    },
     "font.loading": {
       "source": "9b86da7d",
       "text": "Chargement des polices…"
@@ -4758,6 +5068,10 @@
       "source": "076ddda2",
       "text": "Aucune police ne correspond à « {query} »."
     },
+    "font.own.group": {
+      "source": "64440e84",
+      "text": "Vos polices"
+    },
     "font.search": {
       "source": "de84e253",
       "text": "Rechercher des polices"
@@ -4765,6 +5079,46 @@
     "font.searchHint": {
       "source": "b8266fd4",
       "text": "Tapez pour rechercher dans Google Fonts, puis utilisez les flèches et Entrée pour choisir."
+    },
+    "font.weight.100": {
+      "source": "6ef92d30",
+      "text": "Fin (100)"
+    },
+    "font.weight.200": {
+      "source": "e0f3a81c",
+      "text": "Extra-fin (200)"
+    },
+    "font.weight.300": {
+      "source": "cc96ca67",
+      "text": "Léger (300)"
+    },
+    "font.weight.400": {
+      "source": "bd8748c8",
+      "text": "Normal (400)"
+    },
+    "font.weight.500": {
+      "source": "e03a4910",
+      "text": "Moyen (500)"
+    },
+    "font.weight.600": {
+      "source": "7b770075",
+      "text": "Demi-gras (600)"
+    },
+    "font.weight.700": {
+      "source": "369c911e",
+      "text": "Gras (700)"
+    },
+    "font.weight.800": {
+      "source": "5491af07",
+      "text": "Extra-gras (800)"
+    },
+    "font.weight.900": {
+      "source": "e2be3bea",
+      "text": "Noir (900)"
+    },
+    "font.weight.variable": {
+      "source": "e023e2e8",
+      "text": "Toutes les graisses (police variable)"
     },
     "forms.accessKey": {
       "source": "372be23a",
@@ -4841,6 +5195,14 @@
     "general.address": {
       "source": "700560f3",
       "text": "Adresse"
+    },
+    "general.aiTraining": {
+      "source": "84ba61a3",
+      "text": "Laisser les entreprises d'IA utiliser les pages du site pour entraîner leurs modèles"
+    },
+    "general.aiTrainingHint": {
+      "source": "bf21062f",
+      "text": "Désactivé, le site demande aux robots avec lesquels les entreprises d'IA entraînent leurs modèles, comme GPTBot d'OpenAI, ClaudeBot d'Anthropic et Google-Extended, de ne pas le visiter. Les moteurs de recherche le référencent toujours, et les assistants peuvent toujours lire une page qu'on leur demande. Les robots respectueux suivent la demande, mais ce n'est pas un verrou : n'importe qui peut toujours lire les pages du site."
     },
     "general.contact": {
       "source": "4d20f101",
@@ -4941,6 +5303,46 @@
     "general.urlHint": {
       "source": "0a82c543",
       "text": "L'adresse publique complète, par exemple https://example.org. Utilisée pour les moteurs de recherche et les aperçus de liens."
+    },
+    "goTo.empty": {
+      "source": "f8e003c3",
+      "text": "Rien ne correspond."
+    },
+    "goTo.kind.collection": {
+      "source": "66cfa8b1",
+      "text": "Collection"
+    },
+    "goTo.kind.item": {
+      "source": "1f648006",
+      "text": "Élément"
+    },
+    "goTo.kind.page": {
+      "source": "e83d9196",
+      "text": "Page"
+    },
+    "goTo.kind.screen": {
+      "source": "9bd8c631",
+      "text": "Écran"
+    },
+    "goTo.kind.settings": {
+      "source": "fad7116f",
+      "text": "Paramètres du site"
+    },
+    "goTo.kind.synced": {
+      "source": "eab3bdc6",
+      "text": "Bloc synchronisé"
+    },
+    "goTo.label": {
+      "source": "018dcfda",
+      "text": "Page, élément ou écran"
+    },
+    "goTo.placeholder": {
+      "source": "d7eaa675",
+      "text": "Tapez une page, un élément ou un écran"
+    },
+    "goTo.title": {
+      "source": "26bbc722",
+      "text": "Aller à…"
     },
     "import.address": {
       "source": "5a4f5259",
@@ -5162,6 +5564,10 @@
       "source": "564bae4a",
       "text": "Anciennes adresses renvoyées vers les nouvelles : {count}"
     },
+    "import.summary.synced": {
+      "source": "3f1b6aff",
+      "text": "Blocs synchronisés, à partir des compositions synchronisées : {count}"
+    },
     "import.summary.terms": {
       "source": "98473421",
       "text": "Catégories : {categories}. Étiquettes : {tags}."
@@ -5173,6 +5579,26 @@
     "import.viewPages": {
       "source": "5a769d63",
       "text": "Voir les pages"
+    },
+    "kept.found": {
+      "source": "ba2146a5",
+      "text": "Vous avez ici des modifications du {time} qui n'ont pas été publiées."
+    },
+    "kept.invalid": {
+      "source": "e708ea70",
+      "text": "Vos modifications du {time} ne peuvent pas être remises, car les blocs du site ont changé depuis."
+    },
+    "kept.putBack": {
+      "source": "54a1cc8f",
+      "text": "Les remettre"
+    },
+    "kept.theirs": {
+      "source": "8038c19c",
+      "text": "Quelqu'un a publié des modifications ici depuis. Si vous remettez les vôtres, les publier remplacera les siennes."
+    },
+    "kept.throwAway": {
+      "source": "f48a4cdf",
+      "text": "Les abandonner"
     },
     "languages.add": {
       "source": "13bc369b",
@@ -5374,6 +5800,154 @@
       "source": "0e038d6b",
       "text": "Ce texte utilise des éléments que la vue mise en forme ne peut pas afficher, comme des tableaux ou des images, donc il ne peut être modifié qu'en Markdown."
     },
+    "markdownImport.another": {
+      "source": "1cb51129",
+      "text": "Choisir un autre dossier"
+    },
+    "markdownImport.asCollection": {
+      "source": "b078fda8",
+      "text": "Une collection"
+    },
+    "markdownImport.asPages": {
+      "source": "7decab7f",
+      "text": "Des pages"
+    },
+    "markdownImport.done": {
+      "source": "84d42380",
+      "text": "{name} importé."
+    },
+    "markdownImport.doneDraft": {
+      "source": "d6825975",
+      "text": "{name} importé dans un brouillon. Publiez-le depuis la barre en haut quand il est prêt."
+    },
+    "markdownImport.drafts": {
+      "source": "72b9dbf5",
+      "text": "Importer aussi les brouillons, dans un brouillon que vous vérifierez"
+    },
+    "markdownImport.error.none": {
+      "source": "a0c0bb87",
+      "text": "Ce dossier ne contient aucun fichier Markdown. Choisissez le dossier où se trouvent les fichiers .md."
+    },
+    "markdownImport.error.other": {
+      "source": "d90395b6",
+      "text": "Les fichiers n'ont pas pu être importés."
+    },
+    "markdownImport.folder": {
+      "source": "0325cb2c",
+      "text": "Dossier de fichiers Markdown"
+    },
+    "markdownImport.folderHint": {
+      "source": "2ec15596",
+      "text": "Choisissez le dossier lui-même. Votre navigateur peut demander avant de partager ses fichiers avec cette page."
+    },
+    "markdownImport.folderName": {
+      "source": "eb1b58bf",
+      "text": "{name} ({count} fichiers)"
+    },
+    "markdownImport.folders": {
+      "source": "542fed8a",
+      "text": "Dossiers"
+    },
+    "markdownImport.intoDraft": {
+      "source": "9ebacb59",
+      "text": "Avec {count} brouillons, tout va dans un brouillon, donc rien n'est en ligne avant que vous ne le publiiez."
+    },
+    "markdownImport.intro": {
+      "source": "d0ab5a45",
+      "text": "Importez un dossier de fichiers Markdown, comme le contenu ou les notes d'un autre site. Vous choisissez quels dossiers deviennent des pages et lesquels deviennent des collections, et voyez ce qui sera importé avant que rien ne change. Les liens entre les fichiers et les images à côté d'eux sont importés aussi."
+    },
+    "markdownImport.keepFields": {
+      "source": "96cb20f3",
+      "text": "Garder les autres métadonnées comme champs"
+    },
+    "markdownImport.menu": {
+      "source": "37d2656b",
+      "text": "Ajouter les pages de premier niveau au menu principal"
+    },
+    "markdownImport.message": {
+      "source": "f1ad38eb",
+      "text": "Importer les fichiers Markdown de {name}"
+    },
+    "markdownImport.names.all": {
+      "source": "a475d9f3",
+      "text": "Tout voir"
+    },
+    "markdownImport.names.item": {
+      "source": "1f648006",
+      "text": "Élément"
+    },
+    "markdownImport.note.converted": {
+      "source": "98b38f14",
+      "text": "Quelque chose dans ces pages a été simplifié : {items}."
+    },
+    "markdownImport.note.drafts": {
+      "source": "7fead236",
+      "text": "Les brouillons ne sont pas importés sauf si vous le demandez : {items}."
+    },
+    "markdownImport.note.fields": {
+      "source": "6ecd67d1",
+      "text": "Métadonnées laissées de côté : {names}. Cochez « Garder les autres métadonnées comme champs » pour les garder."
+    },
+    "markdownImport.note.frontMatter": {
+      "source": "ca4c57b5",
+      "text": "Leurs métadonnées n'ont pas pu être lues, ils sont donc importés sans elles : {items}."
+    },
+    "markdownImport.note.html": {
+      "source": "9e875e7d",
+      "text": "Le HTML de ces éléments s'affiche comme du texte, car les éléments gardent leur Markdown : {items}."
+    },
+    "markdownImport.note.missingLinks": {
+      "source": "28bd2cdc",
+      "text": "Les liens vers des fichiers ou des pages que l'import n'a pas ne sont plus que leur texte : {items}."
+    },
+    "markdownImport.note.missingMedia": {
+      "source": "fceefc17",
+      "text": "Les images ou fichiers absents du dossier ont été laissés de côté : {items}."
+    },
+    "markdownImport.note.notCopied": {
+      "source": "c4dbf02f",
+      "text": "Les fichiers qui n'ont pas pu être copiés, par exemple trop volumineux, ont été laissés de côté : {items}."
+    },
+    "markdownImport.note.taken": {
+      "source": "f12cd23b",
+      "text": "Laissés de côté, car le site a déjà des pages à leurs adresses : {items}."
+    },
+    "markdownImport.note.templateCode": {
+      "source": "2392bdca",
+      "text": "Le code de modèle d'un autre site, comme {{< … >}}, s'affiche tel quel : {items}."
+    },
+    "markdownImport.reading": {
+      "source": "ea712ebb",
+      "text": "Lecture des fichiers…"
+    },
+    "markdownImport.ready": {
+      "source": "bbec537d",
+      "text": "Prêt à importer {name}. Choisissez comment chaque dossier est importé :"
+    },
+    "markdownImport.replaceHome": {
+      "source": "d721ca56",
+      "text": "Remplacer la page d'accueil par le fichier index de la racine"
+    },
+    "markdownImport.replacePages": {
+      "source": "ceb192f3",
+      "text": "Remplacer les pages que le site a déjà aux mêmes adresses"
+    },
+    "markdownImport.summary.collection": {
+      "source": "33e57029",
+      "text": "{name} : {count} éléments, à {path}"
+    },
+    "markdownImport.summary.menu": {
+      "source": "ca49a382",
+      "text": "Pages ajoutées au menu principal : {count}"
+    },
+    "markdownImport.title": {
+      "source": "d56a75e6",
+      "text": "Importer des fichiers Markdown"
+    },
+    "markdownImport.topFiles": {
+      "source": "e1dfa963",
+      "text": "Fichiers à la racine ({count})"
+    },
     "media.back.body": {
       "source": "4315853a",
       "text": "Les fichiers que {plugin} conserve sont recopiés dans les fichiers propres du site, aux mêmes adresses, et les nouveaux fichiers y vont aussi. Chacun peut faire jusqu'à 25 Mo."
@@ -5446,6 +6020,70 @@
       "source": "9fd1b209",
       "text": "Crédit : {credit}"
     },
+    "media.crop": {
+      "source": "fc018963",
+      "text": "Recadrer ou faire pivoter"
+    },
+    "media.cropBox": {
+      "source": "91503df1",
+      "text": "La partie de l'image à garder"
+    },
+    "media.cropFailed": {
+      "source": "6ab72d5f",
+      "text": "L'image n'a pas pu être enregistrée. Réessayez, ou recadrez-la sur votre ordinateur et téléversez-la."
+    },
+    "media.cropFree": {
+      "source": "bd0fa7a0",
+      "text": "Forme libre"
+    },
+    "media.cropHint": {
+      "source": "78f9ff2d",
+      "text": "Faites glisser le cadre pour choisir ce qui est gardé, et son coin pour changer sa taille. Le cadre choisi, les touches fléchées le déplacent, et avec Maj changent sa taille."
+    },
+    "media.cropPhoto": {
+      "source": "a490c079",
+      "text": "Photo (4:3)"
+    },
+    "media.cropReplace": {
+      "source": "ac68d867",
+      "text": "Remplacer l'original"
+    },
+    "media.cropReplaceHint": {
+      "source": "ccd331ba",
+      "text": "Une nouvelle image n'est utilisée que là où vous la choisissez. Remplacer l'original change l'image partout où elle est utilisée, et efface sa description et son point focal."
+    },
+    "media.cropSaveNew": {
+      "source": "89d0a7fc",
+      "text": "Enregistrer comme nouvelle image"
+    },
+    "media.cropSaved": {
+      "source": "966c9f6d",
+      "text": "{name} enregistrée."
+    },
+    "media.cropShape": {
+      "source": "4380ddc6",
+      "text": "Forme"
+    },
+    "media.cropSize": {
+      "source": "df2ebbc2",
+      "text": "{width} × {height} pixels"
+    },
+    "media.cropSquare": {
+      "source": "fac98c66",
+      "text": "Carré"
+    },
+    "media.cropTitle": {
+      "source": "c56e6368",
+      "text": "Recadrer ou faire pivoter {name}"
+    },
+    "media.cropUnreadable": {
+      "source": "f1df6eb0",
+      "text": "Cette image n'a pas pu être lue, elle ne peut donc pas être recadrée ici."
+    },
+    "media.cropWide": {
+      "source": "7f12e0f7",
+      "text": "Large (16:9)"
+    },
     "media.delete": {
       "source": "5797ea6a",
       "text": "Supprimer"
@@ -5454,9 +6092,29 @@
       "source": "856dbfa3",
       "text": "{name} sera retiré du site."
     },
+    "media.deleteManyBody": {
+      "source": "dd555897",
+      "text": "Ces {count} fichiers seront retirés du site."
+    },
+    "media.deleteManyMessage": {
+      "source": "3172353a",
+      "text": "Supprimer {count} fichiers"
+    },
+    "media.deleteManyTitle": {
+      "source": "dbc976df",
+      "text": "Supprimer {count} fichiers ?"
+    },
+    "media.deleteManyUsed": {
+      "source": "88bbe906",
+      "text": "Certains sont utilisés sur le site. Choisissez d'abord d'autres fichiers à ces endroits, car le site ne peut pas être publié avec des fichiers qui n'existent plus :"
+    },
     "media.deleteMessage": {
       "source": "2617e173",
       "text": "Supprimer {name}"
+    },
+    "media.deleteSelected": {
+      "source": "0b2ea141",
+      "text": "Supprimer la sélection ({count})"
     },
     "media.deleteTitle": {
       "source": "4397aaa4",
@@ -5466,6 +6124,34 @@
       "source": "cb424efb",
       "text": "Il est utilisé dans : {places}. Choisissez d'abord un autre fichier à ces endroits, car le site ne peut pas être publié avec un fichier qui n'existe plus."
     },
+    "media.describeHint": {
+      "source": "9f745433",
+      "text": "Dites ce que montre l'image, pour les personnes qui ne peuvent pas la voir, par exemple « Des enfants qui chantent dans la chorale à la messe de Noël ». Partout où la description propre de l'image est laissée vide, c'est celle-ci qui est utilisée."
+    },
+    "media.describeLanguages": {
+      "source": "d41e8450",
+      "text": "Les langues laissées vides utilisent la description dans la langue principale du site."
+    },
+    "media.description": {
+      "source": "66de7a09",
+      "text": "Description"
+    },
+    "media.descriptionIn": {
+      "source": "14359746",
+      "text": "Description en {language}"
+    },
+    "media.details": {
+      "source": "0ec24245",
+      "text": "Détails"
+    },
+    "media.detailsMessage": {
+      "source": "90a41fee",
+      "text": "Modifier les détails de {name}"
+    },
+    "media.detailsTitle": {
+      "source": "4ef0059b",
+      "text": "Détails de {name}"
+    },
     "media.drop": {
       "source": "b56bd275",
       "text": "Déposez des fichiers ici pour les téléverser"
@@ -5473,6 +6159,10 @@
     "media.empty": {
       "source": "7e147942",
       "text": "Il n'y a pas encore d'images ni de fichiers."
+    },
+    "media.error.font": {
+      "source": "02d9e9d5",
+      "text": "{name} est une police. Les polices s'ajoutent dans Paramètres du site, sous Couleurs et polices."
     },
     "media.error.size": {
       "source": "903da320",
@@ -5489,6 +6179,26 @@
     "media.error.unreadable": {
       "source": "551dfeee",
       "text": "{name} n'a pas pu être lu. Il est peut-être endommagé, ou dans un format que les navigateurs ne savent pas ouvrir, comme HEIC. Enregistrez-le en JPEG et réessayez."
+    },
+    "media.focus": {
+      "source": "a17b1d1c",
+      "text": "Point focal"
+    },
+    "media.focusClear": {
+      "source": "495abba1",
+      "text": "Effacer le point focal"
+    },
+    "media.focusHint": {
+      "source": "bb2ea08c",
+      "text": "Cliquez sur la partie de l'image qui doit rester visible partout où elle est recadrée, comme un visage. Les touches fléchées le déplacent aussi."
+    },
+    "media.focusLabel": {
+      "source": "b5bc0d42",
+      "text": "{name} : choisir son point focal"
+    },
+    "media.focusNone": {
+      "source": "ad421030",
+      "text": "Aucun : l'image est recadrée autour de son centre."
     },
     "media.intro": {
       "source": "886d9dfd",
@@ -5530,9 +6240,17 @@
       "source": "bd9445ab",
       "text": "Déplacer les médias du site vers {plugin} ?"
     },
+    "media.noDescription": {
+      "source": "a283e35a",
+      "text": "Pas encore de description"
+    },
     "media.noMatches": {
       "source": "025321de",
       "text": "Aucun fichier ne correspond."
+    },
+    "media.noneUsed": {
+      "source": "0133f479",
+      "text": "Rien sur le site ne les utilise."
     },
     "media.notUsed": {
       "source": "6dcb94ec",
@@ -5570,9 +6288,41 @@
       "source": "e6398568",
       "text": "Remplacer {name}"
     },
+    "media.rotateLeft": {
+      "source": "3dac1a9b",
+      "text": "Pivoter à gauche"
+    },
+    "media.rotateRight": {
+      "source": "821b5de4",
+      "text": "Pivoter à droite"
+    },
     "media.search": {
       "source": "b78c6279",
       "text": "Trouver un fichier"
+    },
+    "media.select": {
+      "source": "04dce18e",
+      "text": "Sélectionner des fichiers"
+    },
+    "media.selectDone": {
+      "source": "8dd31791",
+      "text": "Terminé"
+    },
+    "media.selectFile": {
+      "source": "10fc7466",
+      "text": "Sélectionner {name}"
+    },
+    "media.selectShown": {
+      "source": "c5d38b2f",
+      "text": "Tout sélectionner parmi ceux affichés"
+    },
+    "media.selected": {
+      "source": "90873ee5",
+      "text": "{count} sélectionné(s)"
+    },
+    "media.selection": {
+      "source": "82650c3b",
+      "text": "Fichiers sélectionnés"
     },
     "media.storage.failed": {
       "source": "6ee9394a",
@@ -5614,6 +6364,50 @@
       "source": "1dd99087",
       "text": "Conservé par {plugin}"
     },
+    "media.tagAdd": {
+      "source": "380edd33",
+      "text": "Ajouter une étiquette"
+    },
+    "media.tagAll": {
+      "source": "75afe364",
+      "text": "Tous"
+    },
+    "media.tagFilesAdd": {
+      "source": "08902864",
+      "text": "Ajouter ces étiquettes"
+    },
+    "media.tagFilesRemove": {
+      "source": "39170237",
+      "text": "Retirer ces étiquettes"
+    },
+    "media.tagFilesTitle": {
+      "source": "ed714f07",
+      "text": "Étiqueter {count} fichiers"
+    },
+    "media.tagFilter": {
+      "source": "8bf4ab29",
+      "text": "Afficher les fichiers étiquetés"
+    },
+    "media.tagMessage": {
+      "source": "ed714f07",
+      "text": "Étiqueter {count} fichiers"
+    },
+    "media.tagRemove": {
+      "source": "6bec23e5",
+      "text": "Retirer {tag}"
+    },
+    "media.tagSelected": {
+      "source": "cfe3c032",
+      "text": "Étiqueter la sélection ({count})"
+    },
+    "media.tags": {
+      "source": "76bda0c0",
+      "text": "Étiquettes"
+    },
+    "media.tagsHint": {
+      "source": "f33c298d",
+      "text": "Des mots pour retrouver les fichiers, comme « Événements » ou « Équipe ». Les visiteurs ne les voient pas."
+    },
     "media.title": {
       "source": "d10fcaa3",
       "text": "Médias"
@@ -5633,6 +6427,10 @@
     "media.uploading": {
       "source": "6bb2fb6e",
       "text": "Téléversement…"
+    },
+    "media.usedIn": {
+      "source": "df3b3e6e",
+      "text": "{name} : {places}"
     },
     "menus.add": {
       "source": "dbaec1f3",
@@ -5765,6 +6563,10 @@
     "nav.settings": {
       "source": "fad7116f",
       "text": "Paramètres du site"
+    },
+    "nav.synced": {
+      "source": "2df3a3ef",
+      "text": "Blocs synchronisés"
     },
     "newCollection.address": {
       "source": "218bd9ff",
@@ -7155,8 +7957,8 @@
       "text": "Historique du site"
     },
     "settings.tab.import": {
-      "source": "2702dbdc",
-      "text": "WordPress"
+      "source": "573e0af4",
+      "text": "Importer"
     },
     "settings.tab.languages": {
       "source": "0c632e38",
@@ -7177,6 +7979,10 @@
     "settings.tab.security": {
       "source": "c2fe21db",
       "text": "Sécurité"
+    },
+    "settings.tab.stats": {
+      "source": "b233a828",
+      "text": "Statistiques de visites"
     },
     "settings.tab.theme": {
       "source": "2d30d2d1",
@@ -7213,6 +8019,38 @@
     "sharePreview.title": {
       "source": "819d92e9",
       "text": "Quand un lien vers cette page est partagé"
+    },
+    "shortcuts.goTo": {
+      "source": "fefa8cae",
+      "text": "Aller à une page, un élément ou un écran"
+    },
+    "shortcuts.help": {
+      "source": "028854e4",
+      "text": "Afficher ces raccourcis"
+    },
+    "shortcuts.or": {
+      "source": "5d342984",
+      "text": "ou"
+    },
+    "shortcuts.redo": {
+      "source": "7412e5e9",
+      "text": "Rétablir"
+    },
+    "shortcuts.save": {
+      "source": "b5dcea24",
+      "text": "Ajouter vos modifications à un brouillon, dans un éditeur"
+    },
+    "shortcuts.title": {
+      "source": "31eaddb7",
+      "text": "Raccourcis clavier"
+    },
+    "shortcuts.typing": {
+      "source": "b7ffe8e5",
+      "text": "Annuler, Rétablir et ? fonctionnent en dehors des zones de texte, qui ont leur propre annulation."
+    },
+    "shortcuts.undo": {
+      "source": "71fd4acf",
+      "text": "Annuler"
     },
     "signIn.app.button": {
       "source": "744be623",
@@ -7370,6 +8208,30 @@
       "source": "81542354",
       "text": "L'historique du site n'est pas conservé dans une démo."
     },
+    "siteHistory.download.button": {
+      "source": "2535e8d7",
+      "text": "Télécharger une copie"
+    },
+    "siteHistory.download.error": {
+      "source": "1ba43fbc",
+      "text": "La copie n'a pas pu être créée. Vérifiez votre connexion et réessayez."
+    },
+    "siteHistory.download.intro": {
+      "source": "e347e056",
+      "text": "Un fichier zip des pages, éléments, paramètres et de la médiathèque du site tels qu'ils sont ici, avec la liste des blocs et extensions qu'il a ajoutés, à garder en lieu sûr. Le code du site n'y est pas."
+    },
+    "siteHistory.download.stored": {
+      "source": "de844f1d",
+      "text": "Les médias conservés dans un service de stockage ne sont pas dans la copie : ils restent dans le service de stockage, et la copie en donne la liste."
+    },
+    "siteHistory.download.title": {
+      "source": "2535e8d7",
+      "text": "Télécharger une copie"
+    },
+    "siteHistory.download.working": {
+      "source": "8fc1367a",
+      "text": "Création de la copie : {done} fichiers sur {total}…"
+    },
     "siteHistory.error": {
       "source": "a8983a7c",
       "text": "L'historique du site n'a pas pu être chargé. Vérifiez votre connexion et réessayez."
@@ -7439,8 +8301,8 @@
       "text": "Les réglages et la mise en page de {name}"
     },
     "siteHistory.subject.credits": {
-      "source": "e13185b9",
-      "text": "Crédits photo"
+      "source": "63f1d147",
+      "text": "Crédits et descriptions des photos"
     },
     "siteHistory.subject.css": {
       "source": "eac8d2c1",
@@ -7477,6 +8339,106 @@
     "siteHistory.unknownBlocks": {
       "source": "7b16cfc0",
       "text": "Le site tel qu'il était alors ne peut pas être restauré, car il utilise des blocs que le site n'a plus : {blocks}."
+    },
+    "stats.change": {
+      "source": "a1de2fdd",
+      "text": "Modifier"
+    },
+    "stats.consent.hint": {
+      "source": "443cf13d",
+      "text": "Sur un site qui demande d'abord aux visiteurs (Général → Consentement des visiteurs), l'avis pose la question des statistiques, et les visites ne sont comptées qu'une fois qu'un visiteur les autorise. Ne décochez ceci que si vous êtes sûr que la loi du pays de vos visiteurs vous permet de compter sans demander."
+    },
+    "stats.consent.label": {
+      "source": "7a001ad5",
+      "text": "Ne compter que les visiteurs qui acceptent"
+    },
+    "stats.consent.notAsking": {
+      "source": "2cd30ddc",
+      "text": "Le site ne demande pas encore d'abord aux visiteurs (Général → Consentement des visiteurs), les visites sont donc comptées tout de suite."
+    },
+    "stats.consent.offMessage": {
+      "source": "395c56e7",
+      "text": "Compter les visites sans demander"
+    },
+    "stats.consent.onMessage": {
+      "source": "54d679d6",
+      "text": "Ne compter les visites qu'une fois que les visiteurs acceptent"
+    },
+    "stats.dashboard": {
+      "source": "9af22d68",
+      "text": "Ouvrir le tableau de bord de {service}"
+    },
+    "stats.domain": {
+      "source": "e7847a4b",
+      "text": "Le domaine de votre site dans Plausible"
+    },
+    "stats.domainHint": {
+      "source": "436e836e",
+      "text": "Tel que Plausible l'affiche, comme example.org. Son tableau de bord porte ce nom."
+    },
+    "stats.form.title": {
+      "source": "b51ef134",
+      "text": "Compter les visites"
+    },
+    "stats.intro": {
+      "source": "3b651b7c",
+      "text": "Comptez combien de personnes visitent les pages du site, et lesquelles, avec Plausible, Umami ou GoatCounter. Ils comptent sans cookies, et gardent les chiffres sur leurs propres sites, où vous les consultez. Les visites ne sont pas comptées quand vous essayez le site sur votre ordinateur, ni dans le panneau d'administration."
+    },
+    "stats.message": {
+      "source": "f9092fdb",
+      "text": "Compter les visites avec {service}"
+    },
+    "stats.paste": {
+      "source": "c22b4383",
+      "text": "Code ou détails"
+    },
+    "stats.paste.goatcounter": {
+      "source": "ed7f71dd",
+      "text": "Collez le script que GoatCounter vous donne sous Settings → Site code, ou simplement le code de votre site, comme monsite pour monsite.goatcounter.com."
+    },
+    "stats.paste.plausible": {
+      "source": "e1cec8e5",
+      "text": "Collez le script que Plausible vous donne sous Site settings → Site installation, ou simplement le domaine de votre site dans Plausible, comme example.org."
+    },
+    "stats.paste.umami": {
+      "source": "9e2f7c1a",
+      "text": "Collez le code de suivi qu'Umami vous donne sous Settings → Websites → Edit, ou simplement l'identifiant du site."
+    },
+    "stats.publish": {
+      "source": "b147838c",
+      "text": "Commencer à compter"
+    },
+    "stats.service": {
+      "source": "b643c704",
+      "text": "Service"
+    },
+    "stats.state.counting": {
+      "source": "5550af23",
+      "text": "Les visites des pages du site sont comptées avec {service}. Les modifications apparaissent sur le site une fois qu'il a été reconstruit."
+    },
+    "stats.state.title": {
+      "source": "878747c4",
+      "text": "Visites comptées"
+    },
+    "stats.stop": {
+      "source": "c82db74a",
+      "text": "Arrêter de compter"
+    },
+    "stats.stop.body": {
+      "source": "2a88305c",
+      "text": "Les pages du site n'enverront plus les visites à {service}. Les chiffres déjà comptés restent dans {service}."
+    },
+    "stats.stop.message": {
+      "source": "9aca75aa",
+      "text": "Arrêter de compter les visites"
+    },
+    "stats.stop.title": {
+      "source": "41b7198f",
+      "text": "Arrêter de compter les visites ?"
+    },
+    "stats.unreadable": {
+      "source": "6a0492c7",
+      "text": "Cela ne ressemble pas au code de ce service. Vérifiez que vous avez choisi le bon service et tout collé. Seules les adresses https:// sur Internet fonctionnent."
     },
     "style.align": {
       "source": "d40ac0af",
@@ -7682,6 +8644,166 @@
       "source": "099b73dc",
       "text": "Haut"
     },
+    "synced.back": {
+      "source": "e0aeebb4",
+      "text": "Tous les blocs synchronisés"
+    },
+    "synced.choose": {
+      "source": "b8112fab",
+      "text": "Choisissez quel bloc synchronisé afficher ici, dans les réglages de ce bloc."
+    },
+    "synced.column.title": {
+      "source": "0fe07306",
+      "text": "Nom"
+    },
+    "synced.column.used": {
+      "source": "9041bb1b",
+      "text": "Affiché sur"
+    },
+    "synced.create": {
+      "source": "990de47d",
+      "text": "Créer"
+    },
+    "synced.delete": {
+      "source": "5797ea6a",
+      "text": "Supprimer"
+    },
+    "synced.deleteBody": {
+      "source": "146e88f9",
+      "text": "Rien ne l'affiche, donc le supprimer ne change aucune page."
+    },
+    "synced.deleteMessage": {
+      "source": "7bf8f15c",
+      "text": "Supprimer le bloc synchronisé {title}"
+    },
+    "synced.deleteTitle": {
+      "source": "a14ea5b3",
+      "text": "Supprimer {title} ?"
+    },
+    "synced.deleteUsed": {
+      "source": "5664ae06",
+      "text": "Il est encore affiché sur ces pages. Retirez-en son bloc Bloc synchronisé, ou détachez-le à cet endroit pour garder ses blocs sur cette page seulement, puis supprimez-le."
+    },
+    "synced.detach": {
+      "source": "1c5c52d2",
+      "text": "Détacher"
+    },
+    "synced.detachHint": {
+      "source": "512e8162",
+      "text": "Mettre ici les blocs propres du bloc synchronisé, pour les modifier sur cette page seulement"
+    },
+    "synced.edit": {
+      "source": "05e42ff0",
+      "text": "Modifier le bloc synchronisé"
+    },
+    "synced.editorUnused": {
+      "source": "9b1bf89d",
+      "text": "Rien n'affiche encore ce bloc synchronisé. Placez-le sur une page avec le bloc Bloc synchronisé."
+    },
+    "synced.editorUsed": {
+      "source": "0ec9ff4e",
+      "text": "Les modifications apparaissent sur {places} quand vous publiez."
+    },
+    "synced.empty": {
+      "source": "ef9e1bd6",
+      "text": "Il n'y a pas encore de blocs synchronisés."
+    },
+    "synced.intro": {
+      "source": "c8d710d7",
+      "text": "Un bloc synchronisé est conservé une seule fois et affiché partout où il est placé : modifiez-le ici, et chaque page qui l'affiche change quand vous publiez. Placez-en un sur une page avec le bloc Bloc synchronisé, ou choisissez un bloc sur une page et utilisez Enregistrer comme bloc synchronisé."
+    },
+    "synced.label": {
+      "source": "c050115c",
+      "text": "Bloc synchronisé : {title}"
+    },
+    "synced.languageCopy": {
+      "source": "02553257",
+      "text": "Créer une version pour {language}"
+    },
+    "synced.languageCopyMessage": {
+      "source": "94431798",
+      "text": "Créer une version du bloc synchronisé {title} pour {language}"
+    },
+    "synced.languageRemove": {
+      "source": "5a2906a8",
+      "text": "Utiliser la version de la langue principale"
+    },
+    "synced.languageRemoveMessage": {
+      "source": "fb9382ce",
+      "text": "Utiliser la version de la langue principale du bloc synchronisé {title} en {language}"
+    },
+    "synced.languageShared": {
+      "source": "ce634c7c",
+      "text": "Les pages en {language} affichent la version de la langue principale de ce bloc synchronisé. Donnez à {language} une version à elle pour traduire son texte."
+    },
+    "synced.message": {
+      "source": "7ec758ea",
+      "text": "Mettre à jour le bloc synchronisé {title}"
+    },
+    "synced.missing": {
+      "source": "52925e36",
+      "text": "Le bloc synchronisé {name} n'est plus sur le site. Choisissez-en un autre, ou retirez ce bloc."
+    },
+    "synced.new": {
+      "source": "60ef92f0",
+      "text": "Nouveau bloc synchronisé"
+    },
+    "synced.newMessage": {
+      "source": "c9b6936a",
+      "text": "Ajouter le bloc synchronisé {title}"
+    },
+    "synced.newTitle": {
+      "source": "60ef92f0",
+      "text": "Nouveau bloc synchronisé"
+    },
+    "synced.notFound": {
+      "source": "bd8ae929",
+      "text": "Ce bloc synchronisé n'est pas sur le site. Il a peut-être été supprimé."
+    },
+    "synced.rename": {
+      "source": "c80631f3",
+      "text": "Renommer"
+    },
+    "synced.renameMessage": {
+      "source": "10ae28a7",
+      "text": "Renommer le bloc synchronisé {title}"
+    },
+    "synced.renameTitle": {
+      "source": "bce663f3",
+      "text": "Renommer le bloc synchronisé"
+    },
+    "synced.save": {
+      "source": "87d9d743",
+      "text": "Enregistrer comme bloc synchronisé"
+    },
+    "synced.saveAction": {
+      "source": "4d2d5d68",
+      "text": "Enregistrer"
+    },
+    "synced.saveHint": {
+      "source": "a4b3f71f",
+      "text": "Conserver une seule fois le bloc choisi, pour l'afficher aussi sur d'autres pages et le modifier partout à la fois"
+    },
+    "synced.saveTitle": {
+      "source": "87d9d743",
+      "text": "Enregistrer comme bloc synchronisé"
+    },
+    "synced.screenTitle": {
+      "source": "2df3a3ef",
+      "text": "Blocs synchronisés"
+    },
+    "synced.title": {
+      "source": "0fe07306",
+      "text": "Nom"
+    },
+    "synced.titleHint": {
+      "source": "80acf991",
+      "text": "Ce que voient les éditeurs quand ils le choisissent, comme « Horaires des messes ». Les visiteurs ne le voient jamais."
+    },
+    "synced.unused": {
+      "source": "f77846cf",
+      "text": "Nulle part pour l'instant"
+    },
     "table.addColumn": {
       "source": "676d4d47",
       "text": "Ajouter une colonne"
@@ -7690,9 +8812,33 @@
       "source": "e6243e1b",
       "text": "Ajouter une ligne"
     },
+    "table.bold": {
+      "source": "45768d96",
+      "text": "Gras"
+    },
     "table.cell": {
       "source": "430c7a23",
       "text": "Ligne {row}, colonne {column}"
+    },
+    "table.italic": {
+      "source": "8db0c08d",
+      "text": "Italique"
+    },
+    "table.link": {
+      "source": "8e08e589",
+      "text": "Lien"
+    },
+    "table.linkAddress": {
+      "source": "d3ecbfb1",
+      "text": "Où mène le lien"
+    },
+    "table.linkApply": {
+      "source": "4eb80021",
+      "text": "Ajouter le lien"
+    },
+    "table.linkSelect": {
+      "source": "89c305de",
+      "text": "Sélectionnez d'abord des mots dans une cellule, puis choisissez Lien."
     },
     "table.removeColumn": {
       "source": "ec424627",
@@ -7710,6 +8856,10 @@
       "source": "8cad1cff",
       "text": "Retirer la ligne {row}"
     },
+    "table.unlink": {
+      "source": "9fa8adbb",
+      "text": "Retirer le lien"
+    },
     "template.help": {
       "source": "7e32e71b",
       "text": "La page de chaque élément utilise cette mise en page. Pour afficher les informations d'un élément, ajoutez un bloc Champ d'élément, ou tapez le nom d'un champ entre accolades dans n'importe quel texte :"
@@ -7721,6 +8871,10 @@
     "template.noPages": {
       "source": "4060b5ef",
       "text": "Les éléments de {name} n'ont pas de pages à eux, donc il n'y a pas de mise en page. Pour leur donner des pages, activez-le dans Réglages."
+    },
+    "theme.addFont": {
+      "source": "b02309b0",
+      "text": "Ajouter une police"
     },
     "theme.bodyFont": {
       "source": "3e142d5e",
@@ -7823,12 +8977,28 @@
       "text": "Polices"
     },
     "theme.fontsHint": {
-      "source": "c69df260",
-      "text": "Choisissez parmi Google Fonts. Par défaut du site utilise la police standard de chaque visiteur."
+      "source": "82e21e40",
+      "text": "Choisissez parmi Google Fonts, ou vos propres polices. Par défaut du site utilise la police standard de chaque visiteur."
     },
     "theme.headingFont": {
       "source": "c595f0b2",
       "text": "Titres"
+    },
+    "theme.noOwnFonts": {
+      "source": "c4addc58",
+      "text": "Pas encore de polices à vous."
+    },
+    "theme.ownFontFiles": {
+      "source": "59e705fd",
+      "text": "Fichiers : {count}"
+    },
+    "theme.ownFonts": {
+      "source": "cf28f4a0",
+      "text": "Vos propres polices"
+    },
+    "theme.ownFontsHint": {
+      "source": "09a1a379",
+      "text": "Des polices que vous avez achetées ou que vous avez le droit d'utiliser sur un site web, en fichiers WOFF2. Elles sont conservées avec le site, et les menus de polices ci-dessus les proposent."
     },
     "theme.parts": {
       "source": "1bd0d7b6",
@@ -7877,6 +9047,14 @@
     "theme.radiusHint": {
       "source": "39c80d9e",
       "text": "Par exemple 0.5rem, ou 0 pour des coins carrés."
+    },
+    "theme.removeFont": {
+      "source": "21a5901d",
+      "text": "Retirer"
+    },
+    "theme.removeFontLabel": {
+      "source": "af4bb253",
+      "text": "Retirer {family}"
     },
     "themes.byPublisher": {
       "source": "cd8a2e4d",
