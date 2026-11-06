@@ -4092,6 +4092,10 @@
       "source": "fd0986e6",
       "text": "Les éditeurs se connectent en allant sur {host} puis en revenant ici. Ajoutez {address} aux URI de redirection de l'application avec laquelle ils se connectent sur {host}, sinon la connexion cessera de fonctionner une fois le site déplacé."
     },
+    "domain.signInSettings": {
+      "source": "4cb22395",
+      "text": "Réglages de connexion"
+    },
     "domain.site.ok": {
       "source": "4ffa40c1",
       "text": "Oui."
@@ -5799,6 +5803,90 @@
     "markdown.sourceOnly": {
       "source": "0e038d6b",
       "text": "Ce texte utilise des éléments que la vue mise en forme ne peut pas afficher, comme des tableaux ou des images, donc il ne peut être modifié qu'en Markdown."
+    },
+    "markdownExport.done": {
+      "source": "e24dc413",
+      "text": "Fichiers Markdown téléchargés."
+    },
+    "markdownExport.download": {
+      "source": "44d079f8",
+      "text": "Télécharger les fichiers Markdown"
+    },
+    "markdownExport.error": {
+      "source": "401c7a94",
+      "text": "Les fichiers Markdown n'ont pas pu être créés."
+    },
+    "markdownExport.intro": {
+      "source": "1412bf9e",
+      "text": "Téléchargez les pages et les éléments des collections du site en fichiers Markdown, avec la médiathèque, pour les utiliser avec d'autres outils de sites web comme Hugo, Jekyll, Eleventy ou Astro, des applications de notes comme Obsidian, ou des outils d'IA."
+    },
+    "markdownExport.limits": {
+      "source": "451fe373",
+      "text": "Le Markdown garde les textes, les titres, les listes, les liens, les images et les tableaux. La mise en page du site, ses couleurs et polices, l'en-tête et le pied de page, et les blocs comme les formulaires, les calendriers et les listes d'éléments ne sont pas exportés. Pour tout garder, utilisez plutôt Télécharger une copie dans l'onglet Historique du site."
+    },
+    "markdownExport.links": {
+      "source": "54bdd23a",
+      "text": "Liens entre les pages"
+    },
+    "markdownExport.links.files": {
+      "source": "547d64a3",
+      "text": "Avec des liens vers les fichiers, par exemple about.md (pour les applications de notes)"
+    },
+    "markdownExport.links.site": {
+      "source": "d60fec87",
+      "text": "Avec les adresses du site, par exemple /about/ (pour les outils de sites web)"
+    },
+    "markdownExport.note.layout": {
+      "source": "35a36a05",
+      "text": "L'en-tête et le pied de page ne sont pas dans les fichiers. Les menus le sont, dans menus.json."
+    },
+    "markdownExport.note.leftOutBlock": {
+      "source": "8442e86a",
+      "text": "Le Markdown ne peut pas contenir le bloc {name}, il a donc été laissé de côté : {items}."
+    },
+    "markdownExport.note.noPages": {
+      "source": "8e310da7",
+      "text": "Ces collections n'ont pas de pages à elles, leurs éléments sont donc dans des dossiers commençant par _ : {collections}."
+    },
+    "markdownExport.note.redirects": {
+      "source": "b34dc3cc",
+      "text": "Les redirections qui ne mènent pas à une page exportée ne sont pas dans les fichiers : {count}."
+    },
+    "markdownExport.note.scheduledIncluded": {
+      "source": "f686417b",
+      "text": "Non affichés actuellement, selon leur programmation, ils sont donc marqués comme brouillons : {items}."
+    },
+    "markdownExport.note.scheduledLeftOut": {
+      "source": "510e1ba3",
+      "text": "Non affichés actuellement, selon leur programmation, ils ont donc été laissés de côté : {items}. Cochez la case ci-dessus pour les inclure comme brouillons."
+    },
+    "markdownExport.note.templates": {
+      "source": "115dd7ed",
+      "text": "La mise en page de ces collections n'a pas été exportée : chaque élément ne contient que ses propres détails et son texte. {collections}."
+    },
+    "markdownExport.scheduled": {
+      "source": "7fe8a638",
+      "text": "Exporter aussi les pages et éléments qui ne sont pas encore ou plus affichés, marqués comme brouillons"
+    },
+    "markdownExport.stored": {
+      "source": "778abee0",
+      "text": "Les médias conservés dans votre service de stockage ne sont pas dans le téléchargement : les pages y renvoient là où ils sont conservés."
+    },
+    "markdownExport.summary.items": {
+      "source": "7d1e2122",
+      "text": "Éléments de collections : {count}"
+    },
+    "markdownExport.summary.media": {
+      "source": "3766fc11",
+      "text": "Fichiers médias : {count}"
+    },
+    "markdownExport.title": {
+      "source": "69a45d3e",
+      "text": "Exporter en Markdown"
+    },
+    "markdownExport.working": {
+      "source": "e8c29778",
+      "text": "Ajout des fichiers au téléchargement : {done} sur {total}"
     },
     "markdownImport.another": {
       "source": "1cb51129",
@@ -7957,8 +8045,8 @@
       "text": "Historique du site"
     },
     "settings.tab.import": {
-      "source": "573e0af4",
-      "text": "Importer"
+      "source": "1e3b0041",
+      "text": "Importer / Exporter"
     },
     "settings.tab.languages": {
       "source": "0c632e38",
@@ -8192,6 +8280,210 @@
       "source": "2c9c3c87",
       "text": "Se connecter avec un jeton d'accès"
     },
+    "signInSetup.app.after": {
+      "source": "8aebe5b2",
+      "text": "Une fois le site reconstruit, déconnectez-vous et choisissez Se connecter avec {host} pour essayer. Si {host} indique que l'adresse n'est pas autorisée, vérifiez que les adresses de son formulaire correspondent à celles ci-dessus."
+    },
+    "signInSetup.app.bitbucket.callback": {
+      "source": "324fab9b",
+      "text": "Callback URL"
+    },
+    "signInSetup.app.bitbucket.consumers": {
+      "source": "7ebc00f2",
+      "text": "Consommateurs OAuth de {workspace}"
+    },
+    "signInSetup.app.bitbucket.copyId": {
+      "source": "4422b134",
+      "text": "Ouvrez le consommateur, copiez sa Key (pas le Secret, qui n'est pas nécessaire), et collez-la ci-dessous."
+    },
+    "signInSetup.app.bitbucket.field": {
+      "source": "cd1ac90c",
+      "text": "Key"
+    },
+    "signInSetup.app.bitbucket.fill": {
+      "source": "cfbc6080",
+      "text": "Choisissez Add consumer, et remplissez-le avec ces valeurs :"
+    },
+    "signInSetup.app.bitbucket.keep": {
+      "source": "30ada964",
+      "text": "La Callback URL du consommateur doit être l'adresse du panneau d'administration : {addresses}."
+    },
+    "signInSetup.app.bitbucket.open": {
+      "source": "422560c5",
+      "text": "Ouvrez les consommateurs OAuth de Bitbucket pour l'espace de travail :"
+    },
+    "signInSetup.app.bitbucket.permissions": {
+      "source": "8700fd83",
+      "text": "Permissions"
+    },
+    "signInSetup.app.bitbucket.settings": {
+      "source": "90ca47b0",
+      "text": "Laissez This is a private consumer décoché, cochez ces permissions, et choisissez Save."
+    },
+    "signInSetup.app.gitlab.copyId": {
+      "source": "cb908131",
+      "text": "Copiez l'Application ID qu'affiche GitLab (pas le Secret, qui n'est pas nécessaire), et collez-le ci-dessous."
+    },
+    "signInSetup.app.gitlab.field": {
+      "source": "c30831d2",
+      "text": "Application ID"
+    },
+    "signInSetup.app.gitlab.fill": {
+      "source": "a0aea652",
+      "text": "Choisissez Add new application, et remplissez-le avec ces valeurs :"
+    },
+    "signInSetup.app.gitlab.group": {
+      "source": "aac5a841",
+      "text": "dans le groupe {group}"
+    },
+    "signInSetup.app.gitlab.keep": {
+      "source": "1d8da18f",
+      "text": "Les Redirect URI de l'application doivent contenir chaque adresse du panneau d'administration : {addresses}."
+    },
+    "signInSetup.app.gitlab.open": {
+      "source": "e472eee0",
+      "text": "Ouvrez le formulaire de GitLab pour une nouvelle application,"
+    },
+    "signInSetup.app.gitlab.own": {
+      "source": "15d465e6",
+      "text": "dans votre propre compte"
+    },
+    "signInSetup.app.gitlab.redirect": {
+      "source": "82f1e03b",
+      "text": "Redirect URI"
+    },
+    "signInSetup.app.gitlab.settings": {
+      "source": "eac4f8dc",
+      "text": "Décochez Confidential, cochez la portée api, et choisissez Save application. Une application dans le groupe continue de fonctionner quand des personnes le quittent."
+    },
+    "signInSetup.app.intro": {
+      "source": "449fdd51",
+      "text": "Sans cela, les éditeurs se connectent avec un jeton. Enregistrez une fois le panneau d'administration auprès de {host}, et ils choisissent Se connecter avec {host}. {host} ne laisse pas d'autres sites le faire pour vous, il faut donc remplir le formulaire de {host} lui-même avec ces valeurs :"
+    },
+    "signInSetup.app.message": {
+      "source": "721fed91",
+      "text": "Se connecter avec {host}"
+    },
+    "signInSetup.app.name": {
+      "source": "0fe07306",
+      "text": "Nom"
+    },
+    "signInSetup.app.noAddress": {
+      "source": "2124e162",
+      "text": "Indiquez d'abord l'adresse du site dans Général → Adresse du site : le formulaire a besoin de l'adresse du panneau d'administration."
+    },
+    "signInSetup.app.on": {
+      "source": "bef23dd2",
+      "text": "Les éditeurs peuvent choisir Se connecter avec {host}. Les modifications apparaissent une fois le site reconstruit."
+    },
+    "signInSetup.app.problem": {
+      "source": "3b821a24",
+      "text": "Cela ne ressemble pas à ce qu'affiche {host}. Copiez-le à nouveau."
+    },
+    "signInSetup.app.removeMessage": {
+      "source": "7a6bdfb3",
+      "text": "Ne plus se connecter avec {host}"
+    },
+    "signInSetup.app.title": {
+      "source": "721fed91",
+      "text": "Se connecter avec {host}"
+    },
+    "signInSetup.app.turnOn": {
+      "source": "81efa6d1",
+      "text": "Activer Se connecter avec {host}"
+    },
+    "signInSetup.contentOnly": {
+      "source": "05377632",
+      "text": "La configuration de ce site est conservée avec son code, que cette connexion ne peut pas publier. Un développeur exécute ceci dans le dossier du code, puis publie la modification :"
+    },
+    "signInSetup.copied": {
+      "source": "8dc21305",
+      "text": "Copié"
+    },
+    "signInSetup.copy": {
+      "source": "658f3664",
+      "text": "Copier"
+    },
+    "signInSetup.error": {
+      "source": "3011fa3c",
+      "text": "Le réglage de connexion n'a pas pu être publié."
+    },
+    "signInSetup.handWritten": {
+      "source": "4681c7ee",
+      "text": "La configuration du site indique où le site est enregistré d'une façon que cet écran ne peut pas modifier. Un développeur ajoute {key} à sa ligne backend à la main."
+    },
+    "signInSetup.or": {
+      "source": "5d342984",
+      "text": "ou"
+    },
+    "signInSetup.remove": {
+      "source": "6fefefae",
+      "text": "Ne plus l'utiliser"
+    },
+    "signInSetup.service.deploy": {
+      "source": "9200f3a6",
+      "text": "Deploy to Cloudflare"
+    },
+    "signInSetup.service.field": {
+      "source": "e2cd4b52",
+      "text": "L'adresse du service de connexion"
+    },
+    "signInSetup.service.fieldHint": {
+      "source": "e029b38b",
+      "text": "Par exemple https://sign-in.your-name.workers.dev."
+    },
+    "signInSetup.service.intro": {
+      "source": "04c9806d",
+      "text": "Sans service de connexion, les éditeurs se connectent avec un jeton. Avec un service, ils choisissent Se connecter avec GitHub. Il fonctionne gratuitement sur votre propre compte Cloudflare, ne conserve rien, et vous le configurez depuis votre navigateur :"
+    },
+    "signInSetup.service.message": {
+      "source": "8f2f023b",
+      "text": "Se connecter avec GitHub par {address}"
+    },
+    "signInSetup.service.more": {
+      "source": "495ee918",
+      "text": "Comment fonctionne le service de connexion"
+    },
+    "signInSetup.service.problem.invalid": {
+      "source": "22db8e63",
+      "text": "Il faut une adresse https://, sans rien après le domaine."
+    },
+    "signInSetup.service.problem.unreachable": {
+      "source": "2607ad1b",
+      "text": "Rien n'a répondu comme un service de connexion à cette adresse. Vérifiez l'adresse, et que le service est déployé."
+    },
+    "signInSetup.service.problem.unset": {
+      "source": "25c2fb3b",
+      "text": "Ce service de connexion n'est pas encore configuré. Terminez d'abord sa page de configuration, à son adresse suivie de /setup."
+    },
+    "signInSetup.service.removeMessage": {
+      "source": "131db7b2",
+      "text": "Ne plus se connecter par {address}"
+    },
+    "signInSetup.service.step.deploy": {
+      "source": "a679e50f",
+      "text": "Mettez-le en ligne avec le bouton de Cloudflare, qui le copie dans votre compte GitHub et le déploie :"
+    },
+    "signInSetup.service.step.setup": {
+      "source": "31876dd5",
+      "text": "Ouvrez son adresse suivie de /setup. Il demande un jeton Cloudflare, créé depuis un lien qui le remplit pour vous, et les adresses de vos sites, puis crée avec vous ses deux applications GitHub."
+    },
+    "signInSetup.service.step.use": {
+      "source": "c4fc3405",
+      "text": "Saisissez son adresse ici et choisissez Utiliser ce service de connexion."
+    },
+    "signInSetup.service.title": {
+      "source": "721fed91",
+      "text": "Se connecter avec {host}"
+    },
+    "signInSetup.service.use": {
+      "source": "ecf5b7b8",
+      "text": "Utiliser ce service de connexion"
+    },
+    "signInSetup.service.using": {
+      "source": "6100303e",
+      "text": "Les éditeurs peuvent choisir Se connecter avec GitHub, par le service de connexion à l'adresse {address}. Les modifications apparaissent une fois le site reconstruit."
+    },
     "siteHistory.added": {
       "source": "0544e56e",
       "text": "Ajouté depuis (restaurer les retire) :"
@@ -8339,6 +8631,286 @@
     "siteHistory.unknownBlocks": {
       "source": "7b16cfc0",
       "text": "Le site tel qu'il était alors ne peut pas être restauré, car il utilise des blocs que le site n'a plus : {blocks}."
+    },
+    "siteTransfer.conflict.collection": {
+      "source": "aeb8b95a",
+      "text": "la collection {name}, dont les champs diffèrent (les éléments de ce site qu'elle contient sont remplacés)"
+    },
+    "siteTransfer.conflict.item": {
+      "source": "eeea3afe",
+      "text": "{name} dans {detail}"
+    },
+    "siteTransfer.conflict.media": {
+      "source": "bf8db4fc",
+      "text": "le fichier média {name}"
+    },
+    "siteTransfer.conflict.page": {
+      "source": "d4277c23",
+      "text": "la page {name} ({detail})"
+    },
+    "siteTransfer.conflict.syncedBlock": {
+      "source": "2318b4d7",
+      "text": "le bloc synchronisé {name}"
+    },
+    "siteTransfer.error.blocks": {
+      "source": "b8c8e9ce",
+      "text": "Les blocs n'ont pas pu être ajoutés depuis le registre de blocs de Goodfellow. Vérifiez votre connexion et réessayez."
+    },
+    "siteTransfer.error.invalid": {
+      "source": "19ae3315",
+      "text": "Une partie du contenu du fichier ne peut pas être lue, il ne peut donc pas être importé."
+    },
+    "siteTransfer.error.newer": {
+      "source": "0708521b",
+      "text": "Ce fichier a été créé avec une version plus récente de Goodfellow. Mettez à jour ce site depuis l'écran Mises à jour, puis réessayez."
+    },
+    "siteTransfer.error.notASite": {
+      "source": "5e051897",
+      "text": "Ce fichier ne vient pas d'un site Goodfellow. Choisissez un fichier créé avec Exporter pour un autre site Goodfellow ou Télécharger une copie."
+    },
+    "siteTransfer.error.other": {
+      "source": "7f36ba53",
+      "text": "Le fichier n'a pas pu être lu."
+    },
+    "siteTransfer.export.button": {
+      "source": "a3a4c204",
+      "text": "Télécharger pour un autre site Goodfellow"
+    },
+    "siteTransfer.export.error": {
+      "source": "d3d5de4d",
+      "text": "Le fichier n'a pas pu être créé. Vérifiez votre connexion et réessayez."
+    },
+    "siteTransfer.export.intro": {
+      "source": "07bd9d90",
+      "text": "Téléchargez les pages, collections, blocs synchronisés, menus, paramètres et médias de ce site en un seul fichier zip, exactement tels qu'ils sont conservés, pour les importer dans un autre site Goodfellow sans rien perdre. C'est le même fichier que crée Télécharger une copie dans l'Historique du site."
+    },
+    "siteTransfer.export.stored": {
+      "source": "3e7d2338",
+      "text": "Les médias que conserve votre service de stockage ne sont pas dans le fichier. Les pages de l'autre site renvoient là où ils sont conservés."
+    },
+    "siteTransfer.export.title": {
+      "source": "9aa6ac7a",
+      "text": "Exporter pour un autre site Goodfellow"
+    },
+    "siteTransfer.export.working": {
+      "source": "45ddec09",
+      "text": "Création du fichier : {done} fichiers sur {total}…"
+    },
+    "siteTransfer.import.also": {
+      "source": "95326e4d",
+      "text": "Apporter aussi"
+    },
+    "siteTransfer.import.another": {
+      "source": "22f9bacf",
+      "text": "Choisir un autre fichier"
+    },
+    "siteTransfer.import.blocks": {
+      "source": "0343b314",
+      "text": "Blocs que ce site n'a pas"
+    },
+    "siteTransfer.import.conflicts": {
+      "source": "c0813153",
+      "text": "Les deux sites ont ceux-ci, différemment"
+    },
+    "siteTransfer.import.conflictsHint": {
+      "source": "cd8f4b78",
+      "text": "La version de ce site est gardée, sauf si vous choisissez celle de l'autre site."
+    },
+    "siteTransfer.import.done": {
+      "source": "e40c2901",
+      "text": "{title} importé."
+    },
+    "siteTransfer.import.file": {
+      "source": "304db1eb",
+      "text": "Fichier de l'autre site"
+    },
+    "siteTransfer.import.fileHint": {
+      "source": "8aec1934",
+      "text": "Un fichier .zip. Vous verrez ce qu'il apporte avant que quoi que ce soit soit publié."
+    },
+    "siteTransfer.import.install": {
+      "source": "3dac41ae",
+      "text": "Ajouter {title} depuis le registre de blocs de Goodfellow, pour que ce qui l'utilise arrive tel quel"
+    },
+    "siteTransfer.import.installHint": {
+      "source": "23c92c84",
+      "text": "Ajouter un bloc modifie le code du site, l'éditeur le propose donc une fois le site reconstruit."
+    },
+    "siteTransfer.import.intro": {
+      "source": "54bd16ac",
+      "text": "Apportez un fichier créé avec Exporter pour un autre site Goodfellow, ou avec Télécharger une copie. Les pages, collections et médias arrivent exactement tels qu'ils étaient."
+    },
+    "siteTransfer.import.layout": {
+      "source": "da59db57",
+      "text": "L'en-tête et le pied de page"
+    },
+    "siteTransfer.import.menus": {
+      "source": "574d097e",
+      "text": "Les menus (ceux de l'autre site remplacent ceux qui ont le même nom)"
+    },
+    "siteTransfer.import.message": {
+      "source": "61ee3e2a",
+      "text": "Importer {title} depuis un autre site Goodfellow"
+    },
+    "siteTransfer.import.mode": {
+      "source": "995ce136",
+      "text": "Comment l'apporter"
+    },
+    "siteTransfer.import.mode.add": {
+      "source": "fa2650ca",
+      "text": "Ajouter à ce site : garder le contenu de ce site, et apporter ce qu'il n'a pas"
+    },
+    "siteTransfer.import.mode.replace": {
+      "source": "ad0dc8d1",
+      "text": "Remplacer le contenu de ce site par celui de l'autre site"
+    },
+    "siteTransfer.import.reading": {
+      "source": "feb223b0",
+      "text": "Lecture du fichier…"
+    },
+    "siteTransfer.import.ready": {
+      "source": "640138dc",
+      "text": "Prêt à importer {title}."
+    },
+    "siteTransfer.import.redirects": {
+      "source": "84e96dc3",
+      "text": "Les redirections que ce site n'a pas"
+    },
+    "siteTransfer.import.replaceWarning": {
+      "source": "b0541a6b",
+      "text": "Tout ce que ce site a et que l'autre site n'a pas est supprimé à l'import : pages, collections, médias et paramètres. Les limites des éditeurs, les réglages de mise à jour, le stockage des médias et l'adresse du site restent tels quels. Vous pouvez revenir en arrière dans l'Historique du site."
+    },
+    "siteTransfer.import.settings": {
+      "source": "c74ab078",
+      "text": "Les paramètres du site, les couleurs et polices, le CSS et le code personnalisés, et les langues du panneau d'administration"
+    },
+    "siteTransfer.import.title": {
+      "source": "14fe0c42",
+      "text": "Importer depuis un autre site Goodfellow"
+    },
+    "siteTransfer.import.useAllMine": {
+      "source": "64f49f39",
+      "text": "Garder celle de ce site pour tout"
+    },
+    "siteTransfer.import.useAllTheirs": {
+      "source": "7d128e06",
+      "text": "Utiliser celle de l'autre site pour tout"
+    },
+    "siteTransfer.import.useTheirs": {
+      "source": "3692e1b6",
+      "text": "Utiliser la version de l'autre site : {what}"
+    },
+    "siteTransfer.import.withoutBlocks": {
+      "source": "4077d88e",
+      "text": "Apporter ce qui utilise des blocs que ce site n'a pas, sans ces blocs"
+    },
+    "siteTransfer.kept.address": {
+      "source": "fa0b395b",
+      "text": "l'adresse du site"
+    },
+    "siteTransfer.kept.limits": {
+      "source": "b908ba22",
+      "text": "les limites des éditeurs"
+    },
+    "siteTransfer.kept.storage": {
+      "source": "5dc87be2",
+      "text": "le stockage des médias"
+    },
+    "siteTransfer.kept.updates": {
+      "source": "95491201",
+      "text": "les réglages de mise à jour"
+    },
+    "siteTransfer.note.code": {
+      "source": "7342b260",
+      "text": "Le code personnalisé est apporté. Il s'exécute sur chaque page, vérifiez-le donc d'abord."
+    },
+    "siteTransfer.note.collectionDiffers": {
+      "source": "abb35b3e",
+      "text": "{collections} de ce site a d'autres champs, les éléments de l'autre site qu'elle contient sont donc laissés de côté, sauf si vous choisissez la collection de l'autre site ci-dessus."
+    },
+    "siteTransfer.note.kept": {
+      "source": "a6260b2e",
+      "text": "Reste tel que ce site l'a : {things}."
+    },
+    "siteTransfer.note.languages": {
+      "source": "a515b0c7",
+      "text": "Les langues de l'autre site sont ajoutées aux paramètres du site, pour que ses pages dans ces langues fonctionnent : {codes}."
+    },
+    "siteTransfer.note.leftOut": {
+      "source": "b6b25396",
+      "text": "Laissés de côté, car ils utilisent des blocs que ce site n'a pas : {items}."
+    },
+    "siteTransfer.note.missingBlock": {
+      "source": "ce296168",
+      "text": "{name} ne fait pas partie des blocs de ce site. Il est utilisé dans {items}."
+    },
+    "siteTransfer.note.plugins": {
+      "source": "11a92cf9",
+      "text": "L'autre site utilisait des extensions que ce site n'a pas : {names}. Ajoutez-les dans Extensions si vous en avez besoin."
+    },
+    "siteTransfer.note.stored": {
+      "source": "26a4f1e8",
+      "text": "Les fichiers médias que conserve le service de stockage de l'autre site ne sont pas dans le fichier : {count}. Les pages renvoient là où ils sont conservés."
+    },
+    "siteTransfer.note.storedMerged": {
+      "source": "0e15dc41",
+      "text": "Les fichiers médias que conserve le stockage de l'autre site sont ajoutés au stockage de ce site, qui est le même : {count}."
+    },
+    "siteTransfer.note.taken": {
+      "source": "39165d51",
+      "text": "Laissés de côté, car ce site a autre chose à leurs adresses : {items}."
+    },
+    "siteTransfer.note.uncopied": {
+      "source": "a40c494b",
+      "text": "Laissés de côté, car ils sont trop grands ou ne peuvent pas être affichés sans risque : {items}."
+    },
+    "siteTransfer.note.withoutBlocks": {
+      "source": "5d7393e7",
+      "text": "Apportés sans les blocs que ce site n'a pas : {items}."
+    },
+    "siteTransfer.summary.collections": {
+      "source": "45497265",
+      "text": "Nouvelles collections : {count}"
+    },
+    "siteTransfer.summary.items": {
+      "source": "7d1e2122",
+      "text": "Éléments de collections : {count}"
+    },
+    "siteTransfer.summary.layout": {
+      "source": "da59db57",
+      "text": "L'en-tête et le pied de page"
+    },
+    "siteTransfer.summary.media": {
+      "source": "3766fc11",
+      "text": "Fichiers médias : {count}"
+    },
+    "siteTransfer.summary.menus": {
+      "source": "60bd458b",
+      "text": "Menus"
+    },
+    "siteTransfer.summary.nothing": {
+      "source": "3e6bfe10",
+      "text": "Rien à apporter : ce site a déjà tout ce que vous avez choisi, tel que c'est dans le fichier."
+    },
+    "siteTransfer.summary.pages": {
+      "source": "a2dbac9c",
+      "text": "Pages : {count}"
+    },
+    "siteTransfer.summary.redirects": {
+      "source": "06cc2f06",
+      "text": "Redirections"
+    },
+    "siteTransfer.summary.removed": {
+      "source": "cc2a1d01",
+      "text": "Fichiers supprimés : {count}"
+    },
+    "siteTransfer.summary.settings": {
+      "source": "fad7116f",
+      "text": "Paramètres du site"
+    },
+    "siteTransfer.summary.syncedBlocks": {
+      "source": "c1751b0c",
+      "text": "Blocs synchronisés : {count}"
     },
     "stats.change": {
       "source": "a1de2fdd",
