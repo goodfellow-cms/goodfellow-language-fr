@@ -39,14 +39,40 @@ test("was made from today's English", () => {
   assert.deepEqual(keys("outdated"), []);
 });
 
+// Labels that releases in package.json's peer range still show, which later
+// releases renamed. Labels are found by their English, so the newer releases
+// never use these; take one out once the range no longer includes a release
+// that shows it.
+const OLDER_LABELS = [
+  // 0.9 and 0.10, which 0.11 calls "A menu: light, dark, or like the visitor's computer".
+  "A menu: light, dark or like the visitor's computer",
+  // 0.9 and 0.10, which 0.11 calls "Item field".
+  "Entry field",
+  // 0.9 and 0.10, which 0.11 words with a comma before "or".
+  "Giscus's, Disqus's or Garrul's code, for comments kept elsewhere than Site settings says (optional)",
+  // 0.9 and 0.10, which 0.11 words with a comma before "and".
+  "Yes: leave out scripts, styles and frames",
+];
+
 test("has nothing Goodfellow no longer says", () => {
-  const known = new Set(sources.map((source) => source.key));
+  const known = new Set([
+    ...sources.map((source) => source.key),
+    ...OLDER_LABELS.map((label) => sourceKey("labels", label)),
+  ]);
   const stale = ["strings", "puck", "labels"].flatMap((table) =>
     Object.keys(manifest[table])
       .filter((key) => !known.has(sourceKey(table, key)))
       .map((key) => sourceKey(table, key)),
   );
   assert.deepEqual(stale, []);
+});
+
+test("keeps older releases' labels only while 0.11's English says them differently", () => {
+  const known = new Set(sources.map((source) => source.key));
+  for (const label of OLDER_LABELS) {
+    assert.ok(manifest.labels[label], `${label} has no French`);
+    assert.ok(!known.has(sourceKey("labels", label)), `${label} is today's English, so it needn't be listed`);
+  }
 });
 
 test("counts as complete on the Admin panel languages screen", () => {
