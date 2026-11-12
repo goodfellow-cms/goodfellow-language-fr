@@ -42,6 +42,9 @@
     "A menu that opens": {
       "text": "Un menu qui s'ouvre"
     },
+    "A menu: light, dark or like the visitor's computer": {
+      "text": "Un menu : clair, sombre ou comme l'ordinateur du visiteur"
+    },
     "A menu: light, dark, or like the visitor's computer": {
       "text": "Un menu : clair, sombre ou comme l'ordinateur du visiteur"
     },
@@ -378,6 +381,9 @@
     "End with this page": {
       "text": "Terminer par cette page"
     },
+    "Entry field": {
+      "text": "Champ d'élément"
+    },
     "Events": {
       "text": "Événements"
     },
@@ -431,6 +437,9 @@
     },
     "Giscus's or Disqus's code, for comments kept elsewhere than Site settings says (optional)": {
       "text": "Le code de Giscus ou de Disqus, pour des commentaires conservés ailleurs que ce qu'indiquent les Paramètres du site (facultatif)"
+    },
+    "Giscus's, Disqus's or Garrul's code, for comments kept elsewhere than Site settings says (optional)": {
+      "text": "Le code de Giscus, Disqus ou Garrul, pour des commentaires conservés ailleurs que ce qu'indiquent les Paramètres du site (facultatif)"
     },
     "Giving page's address (a Stripe payment link, PayPal donate button or similar)": {
       "text": "Adresse de la page de don (un lien de paiement Stripe, un bouton de don PayPal ou similaire)"
@@ -1469,6 +1478,9 @@
     },
     "Yes": {
       "text": "Oui"
+    },
+    "Yes: leave out scripts, styles and frames": {
+      "text": "Oui : omettre les scripts, les styles et les cadres"
     },
     "Yes: leave out scripts, styles, and frames": {
       "text": "Oui : omettre les scripts, les styles et les cadres"
