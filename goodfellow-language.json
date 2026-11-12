@@ -42,7 +42,7 @@
     "A menu that opens": {
       "text": "Un menu qui s'ouvre"
     },
-    "A menu: light, dark or like the visitor's computer": {
+    "A menu: light, dark, or like the visitor's computer": {
       "text": "Un menu : clair, sombre ou comme l'ordinateur du visiteur"
     },
     "A month at a time": {
@@ -378,9 +378,6 @@
     "End with this page": {
       "text": "Terminer par cette page"
     },
-    "Entry field": {
-      "text": "Champ d'élément"
-    },
     "Events": {
       "text": "Événements"
     },
@@ -432,8 +429,8 @@
     "Gallery's caption": {
       "text": "Légende de la galerie"
     },
-    "Giscus's, Disqus's or Garrul's code, for comments kept elsewhere than Site settings says (optional)": {
-      "text": "Le code de Giscus, Disqus ou Garrul, pour des commentaires conservés ailleurs que ce qu'indiquent les Paramètres du site (facultatif)"
+    "Giscus's or Disqus's code, for comments kept elsewhere than Site settings says (optional)": {
+      "text": "Le code de Giscus ou de Disqus, pour des commentaires conservés ailleurs que ce qu'indiquent les Paramètres du site (facultatif)"
     },
     "Giving page's address (a Stripe payment link, PayPal donate button or similar)": {
       "text": "Adresse de la page de don (un lien de paiement Stripe, un bouton de don PayPal ou similaire)"
@@ -536,6 +533,9 @@
     },
     "Introduction": {
       "text": "Introduction"
+    },
+    "Item field": {
+      "text": "Champ d'élément"
     },
     "Items per row": {
       "text": "Éléments par rangée"
@@ -1470,7 +1470,7 @@
     "Yes": {
       "text": "Oui"
     },
-    "Yes: leave out scripts, styles and frames": {
+    "Yes: leave out scripts, styles, and frames": {
       "text": "Oui : omettre les scripts, les styles et les cadres"
     },
     "YouTube": {
@@ -1497,6 +1497,10 @@
     "action-delete": {
       "source": "5797ea6a",
       "text": "Supprimer"
+    },
+    "action-drag": {
+      "source": "fce503d3",
+      "text": "Faire glisser pour réordonner"
     },
     "action-duplicate": {
       "source": "fc330336",
@@ -1825,7 +1829,7 @@
       "text": "Annuler la dernière modification (Ctrl+Z, ou ⌘Z sur Mac)"
     },
     "address.invalid": {
-      "source": "fe15ce63",
+      "source": "d57f0e2b",
       "text": "Utilisez des lettres minuscules, des chiffres et des tirets, avec / entre les parties, par exemple /qui-sommes-nous."
     },
     "address.reserved": {
@@ -1849,7 +1853,7 @@
       "text": "Code de la langue"
     },
     "adminText.add.codeHint": {
-      "source": "80897831",
+      "source": "d9259cc3",
       "text": "Par exemple fr, de ou pt-BR."
     },
     "adminText.add.exists": {
@@ -2297,7 +2301,7 @@
       "text": "Le modifier"
     },
     "ai.check": {
-      "source": "446d6082",
+      "source": "2e21c308",
       "text": "L'IA peut se tromper : lisez ce qu'elle écrit avant de publier. Elle n'invente pas d'heures, de noms ni de prix : elle laisse des [espaces à remplir] pour vous."
     },
     "ai.costHint": {
@@ -2340,6 +2344,50 @@
       "source": "2d4e6f1c",
       "text": "Oublier la clé"
     },
+    "ai.free.gemini": {
+      "source": "6420f9be",
+      "text": "L'IA de Google. Son offre gratuite demande une clé d'un compte Google."
+    },
+    "ai.free.getKey": {
+      "source": "9c3638e5",
+      "text": "Obtenir une clé gratuite"
+    },
+    "ai.free.getKeyLabel": {
+      "source": "8a189b8d",
+      "text": "Obtenir une clé gratuite pour {service}"
+    },
+    "ai.free.groq": {
+      "source": "b471b9a2",
+      "text": "Des modèles ouverts rapides. Son offre gratuite demande une clé d'un compte gratuit."
+    },
+    "ai.free.intro": {
+      "source": "b7a28416",
+      "text": "Ceux-ci ne coûtent rien :"
+    },
+    "ai.free.manual": {
+      "source": "37c67192",
+      "text": "Copiez chaque demande dans une application de discussion que vous utilisez déjà, comme Claude.ai ou ChatGPT, et sa réponse ici. Aucune clé n'est nécessaire."
+    },
+    "ai.free.mistral": {
+      "source": "903f5f16",
+      "text": "Les modèles de Mistral. Son offre gratuite demande une clé d'un compte gratuit."
+    },
+    "ai.free.openrouter": {
+      "source": "fc75b44b",
+      "text": "De nombreux modèles au même endroit, dont certains gratuits. Ils demandent une clé d'un compte gratuit."
+    },
+    "ai.free.ovhcloud": {
+      "source": "8b2e5fa9",
+      "text": "Gratuit, sans clé ni compte, mais lent : environ 2 demandes par minute."
+    },
+    "ai.free.use": {
+      "source": "df6cf738",
+      "text": "Utiliser celui-ci"
+    },
+    "ai.free.useLabel": {
+      "source": "a27ceffb",
+      "text": "Utiliser {service}"
+    },
     "ai.getKey": {
       "source": "dba62ba2",
       "text": "Obtenir une clé auprès de {service}"
@@ -2369,7 +2417,7 @@
       "text": "Copier la demande"
     },
     "ai.manual.step1": {
-      "source": "75a6cca1",
+      "source": "d8da47f9",
       "text": "Copiez cette demande dans Claude.ai, ChatGPT ou une autre application de discussion :"
     },
     "ai.manual.step2": {
@@ -2457,7 +2505,7 @@
       "text": "Les photos viennent d'Openverse et sont ajoutées à la médiathèque. Les pages qui les utilisent citent leurs auteurs, comme leurs licences l'exigent."
     },
     "ai.placeholder.add": {
-      "source": "5738c68f",
+      "source": "6e8c1fb3",
       "text": "Par exemple : une section sur nos horaires des messes de Noël, avec un titre, un court mot d'accueil et un bouton vers la page de contact."
     },
     "ai.placeholder.edit": {
@@ -2487,6 +2535,18 @@
     "ai.remember": {
       "source": "4165595d",
       "text": "Se souvenir de la clé sur cet appareil"
+    },
+    "ai.report.blocks": {
+      "source": "493b1b70",
+      "text": "Blocs ajoutés : {count}."
+    },
+    "ai.report.settings": {
+      "source": "df537045",
+      "text": "Réglages modifiés : {count}."
+    },
+    "ai.report.skipped": {
+      "source": "99f73efc",
+      "text": "Laissés de côté, car ils ne convenaient pas à ce site : {count}. Redemandez, ou remplissez-les vous-même."
     },
     "ai.settings": {
       "source": "9ca36695",
@@ -2668,6 +2728,10 @@
       "source": "89eb3ea4",
       "text": "Modifications à publier"
     },
+    "blocks.pendingUpdate": {
+      "source": "965ce6c8",
+      "text": "Mettre à jour {name} vers la version {version}"
+    },
     "blocks.publish": {
       "source": "6c6229a8",
       "text": "Publier"
@@ -2732,6 +2796,30 @@
       "source": "47601a90",
       "text": "Ne pas retirer {name}"
     },
+    "blocks.undoUpdateLabel": {
+      "source": "15c9aff7",
+      "text": "Ne pas mettre à jour {name}"
+    },
+    "blocks.update": {
+      "source": "6e230e94",
+      "text": "Mettre à jour"
+    },
+    "blocks.updateLabel": {
+      "source": "965ce6c8",
+      "text": "Mettre à jour {name} vers la version {version}"
+    },
+    "blocks.updateMessage": {
+      "source": "5b18f944",
+      "text": "Mettre à jour le bloc {name} vers la version {version}"
+    },
+    "blocks.updatePart": {
+      "source": "d74721f6",
+      "text": "mettre à jour {names}"
+    },
+    "blocks.updatesHint": {
+      "source": "2f670fe1",
+      "text": "De nouvelles versions de certains blocs sont prêtes. Les mises à jour de Goodfellow ne modifient jamais le code des blocs, donc mettez-les à jour ici."
+    },
     "blocks.usedSyncedBlock": {
       "source": "6ebf11e3",
       "text": "le bloc synchronisé {title}"
@@ -2747,6 +2835,10 @@
     "blocks.willRemove": {
       "source": "a673f1ae",
       "text": "Sera retiré"
+    },
+    "blocks.willUpdate": {
+      "source": "9af8145c",
+      "text": "Sera mis à jour vers la version {version}"
     },
     "broker.elsewhere": {
       "source": "3b96f690",
@@ -3013,7 +3105,7 @@
       "text": "Dans l'en-tête de la page"
     },
     "code.headHint": {
-      "source": "1a6d0b9d",
+      "source": "137faaa5",
       "text": "Les balises script, style, link, meta et noscript, comme celles que fournit Google Analytics."
     },
     "code.intro": {
@@ -3193,7 +3285,7 @@
       "text": "Il n'y a pas encore de collections."
     },
     "collections.intro": {
-      "source": "fc8947f6",
+      "source": "a1ef450e",
       "text": "Les collections sont des groupes d'éléments semblables, comme des vidéos, des événements ou une équipe. Chaque collection a ses propres champs et peut donner à chaque élément une page qui partage une même mise en page."
     },
     "collections.new": {
@@ -3269,11 +3361,11 @@
       "text": "Créez un site sur Disqus"
     },
     "comments.disqus.intro": {
-      "source": "264a0f06",
+      "source": "753f25d4",
       "text": "Disqus conserve les commentaires sur son propre service, où vous les approuvez, les masquez et les supprimez. Son offre gratuite affiche des publicités avec eux."
     },
     "comments.disqus.invalid": {
-      "source": "1da82670",
+      "source": "a6775eb6",
       "text": "Ce n'est ni un nom court ni le code de Disqus. Un nom court ne contient que des lettres, des chiffres et des tirets, par exemple stjoseph."
     },
     "comments.disqus.kept": {
@@ -3293,7 +3385,7 @@
       "text": "Modérer les commentaires sur Disqus"
     },
     "comments.disqus.moderateHint": {
-      "source": "2461ea25",
+      "source": "d44b0f9d",
       "text": "Approuvez, masquez et supprimez les commentaires, et bloquez des personnes, sur Disqus."
     },
     "comments.disqus.stopBody": {
@@ -3313,7 +3405,7 @@
       "text": "L'ouvrir sur GitHub"
     },
     "comments.error.name-invalid": {
-      "source": "c5788148",
+      "source": "a8ba3d12",
       "text": "Le nom d'un projet ne peut contenir que des lettres, des chiffres, des tirets, des tirets bas et des points."
     },
     "comments.error.name-taken": {
@@ -3349,7 +3441,7 @@
       "text": "Utiliser Garrul"
     },
     "comments.garrul.intro": {
-      "source": "22253a89",
+      "source": "e3a77071",
       "text": "Garrul conserve les commentaires dans votre propre compte Cloudflare, avec l'offre gratuite de Cloudflare, sans publicité. Les visiteurs commentent en tant qu'invités ou se connectent avec GitHub, Google, Facebook, X ou Discord. Il faut d'abord le configurer sur Cloudflare, par une personne habituée à lancer des commandes sur un ordinateur."
     },
     "comments.garrul.invalid": {
@@ -3373,7 +3465,7 @@
       "text": "Modérer les commentaires sur Garrul"
     },
     "comments.garrul.moderateHint": {
-      "source": "a6c7ea24",
+      "source": "dfd05e9c",
       "text": "Approuvez, masquez et supprimez les commentaires sur les pages de Garrul, en vous connectant avec une adresse e-mail que ses réglages désignent comme administrateur."
     },
     "comments.garrul.origins": {
@@ -3625,7 +3717,7 @@
       "text": "{site} est sa provenance, par exemple youtube-nocookie.com."
     },
     "consent.hint": {
-      "source": "7afd9632",
+      "source": "968cc014",
       "text": "Les vidéos de YouTube et Vimeo, les formulaires et cartes de Google, hCaptcha et le code de l'onglet Code attendent l'accord des visiteurs, avec un avis en bas de la page qui le leur demande. Leur réponse est conservée dans leur navigateur. Les liens vers #consent, par exemple dans un menu, rouvrent l'avis."
     },
     "consent.kind.content": {
@@ -3925,11 +4017,11 @@
       "text": "Ce site n'est pas publié avec {host} Pages, donc son domaine se connecte là où il est publié."
     },
     "domain.elsewhere.cloudflare": {
-      "source": "7ada7f35",
+      "source": "fe06ad9f",
       "text": "Sur Cloudflare Pages : ouvrez le projet du site, allez dans Custom domains et configurez le domaine. Pour un domaine comme www.example.org, Cloudflare affiche un enregistrement CNAME à ajouter chez votre registraire. Pour example.org lui-même, le domaine doit utiliser les serveurs de noms de Cloudflare, ce que Cloudflare vous explique pas à pas. Une fois que le site fonctionne à sa nouvelle adresse, indiquez-la dans Général → Adresse du site et publiez."
     },
     "domain.elsewhere.netlify": {
-      "source": "ca8eb91a",
+      "source": "a7bb7e60",
       "text": "Sur Netlify : ouvrez le site, allez dans Domain management et ajoutez le domaine. Netlify affiche les enregistrements à ajouter chez votre registraire, ou propose de gérer lui-même le DNS du domaine. Une fois que le site fonctionne à sa nouvelle adresse, indiquez-la dans Général → Adresse du site et publiez."
     },
     "domain.elsewhere.other": {
@@ -3965,7 +4057,7 @@
       "text": "Domaine"
     },
     "domain.fieldHint": {
-      "source": "64ec86c2",
+      "source": "f86166b6",
       "text": "Par exemple example.org ou www.example.org. Achetez-en d'abord un chez un registraire, comme Cloudflare, Namecheap ou Porkbun. Pour example.org, www.example.org fonctionne aussi."
     },
     "domain.guides": {
@@ -4005,7 +4097,7 @@
       "text": "Recherche de l'endroit où le site est publié…"
     },
     "domain.local": {
-      "source": "85a94951",
+      "source": "2a1f41bf",
       "text": "Les domaines se connectent dans le panneau d'administration du site publié, où vous vous connectez avec GitHub, GitLab ou Bitbucket."
     },
     "domain.message": {
@@ -4025,7 +4117,7 @@
       "text": "Envoie aussi www. vers le site."
     },
     "domain.records.hint": {
-      "source": "ecce1ecf",
+      "source": "36d22767",
       "text": "Votre registraire est l'endroit où vous avez acheté le domaine. Dans ses réglages DNS, ajoutez chaque enregistrement ci-dessous. Supprimez tout autre enregistrement A, AAAA ou CNAME portant les mêmes noms, comme une page que le registraire affiche sur les nouveaux domaines."
     },
     "domain.records.missing": {
@@ -4192,6 +4284,10 @@
       "source": "6521acc5",
       "text": "Publier le brouillon {name}"
     },
+    "draft.notEditable": {
+      "source": "ad922d41",
+      "text": "Ce brouillon modifie des fichiers que le panneau d'administration ne modifie pas, comme la configuration du site, qui ne peuvent pas être publiés depuis un brouillon. Demandez à un développeur d'examiner les modifications, ou abandonnez le brouillon et refaites vos modifications."
+    },
     "draft.oneChange": {
       "source": "7cc57e22",
       "text": "1 fichier modifié"
@@ -4247,6 +4343,10 @@
     "draft.submitted": {
       "source": "33ee0aa3",
       "text": "Soumis pour relecture."
+    },
+    "draft.unsafeMedia": {
+      "source": "c212771e",
+      "text": "Ce brouillon contient un fichier de la médiathèque que le site ne peut pas utiliser sans risque. Retirez-le du brouillon, puis publiez à nouveau."
     },
     "draft.waiting": {
       "source": "ece3fccd",
@@ -4376,6 +4476,10 @@
       "source": "2663ec54",
       "text": "Afficher ou masquer les blocs et le plan"
     },
+    "editor.notPublished": {
+      "source": "028af137",
+      "text": "Pas encore sur le site : Publier l'y met."
+    },
     "editor.plugin.failed": {
       "source": "1d91652e",
       "text": "{editor} n'a pas démarré. Choisissez l'éditeur standard pour continuer à modifier."
@@ -4443,6 +4547,10 @@
     "editors.error.already": {
       "source": "ac8b9a17",
       "text": "Cette personne modifie déjà le site, ou a déjà été invitée."
+    },
+    "editors.error.ambiguous": {
+      "source": "8fbae91b",
+      "text": "Plus d'une personne sur {host} porte ce nom. Utilisez plutôt son nom d'utilisateur."
     },
     "editors.error.invalid": {
       "source": "eae96bd7",
@@ -4513,7 +4621,7 @@
       "text": "Chargement des éditeurs…"
     },
     "editors.local": {
-      "source": "85e4dc18",
+      "source": "a6421210",
       "text": "Les éditeurs s'invitent dans le panneau d'administration du site publié, où vous vous connectez avec GitHub, GitLab ou Bitbucket."
     },
     "editors.onlyOwners": {
@@ -4593,7 +4701,7 @@
       "text": "Il n'y a encore rien dans {name}."
     },
     "entryName.invalid": {
-      "source": "8e9f8a5b",
+      "source": "48d318c3",
       "text": "Utilisez uniquement des lettres minuscules, des chiffres et des tirets, par exemple veillee-pascale."
     },
     "entryName.reserved": {
@@ -4737,7 +4845,7 @@
       "text": "Le fichier d'export n'a pas pu être créé."
     },
     "export.intro": {
-      "source": "80fc279f",
+      "source": "c8b937a7",
       "text": "Téléchargez ce site sous forme de fichier d'export WordPress, pour le déplacer vers WordPress ou en garder une copie. Les pages gardent leurs adresses et les blocs deviennent ceux de WordPress, les éléments des collections avec des pages deviennent des articles, et les menus suivent. Dans WordPress, allez dans Outils → Importer → WordPress, choisissez le fichier et cochez « Télécharger et importer les fichiers joints », ce qui copie les médias depuis ce site."
     },
     "export.note.hidden": {
@@ -4961,11 +5069,11 @@
       "text": "Nom de la police"
     },
     "font.add.familyHint": {
-      "source": "6221cb70",
+      "source": "0f3fa2c8",
       "text": "Tel que les menus de polices l'affichent, comme Brandon Grotesque. Lettres, chiffres et espaces."
     },
     "font.add.familyInvalid": {
-      "source": "64e10319",
+      "source": "a7bb93ab",
       "text": "Utilisez des lettres, des chiffres et des espaces, jusqu'à 60 caractères."
     },
     "font.add.familyTaken": {
@@ -4981,7 +5089,7 @@
       "text": "Fichiers de police (WOFF2)"
     },
     "font.add.filesHint": {
-      "source": "7bdd424a",
+      "source": "a77fd6e2",
       "text": "Choisissez tous les fichiers de la police à la fois : un pour chaque graisse et style, comme Regular, Bold et Italic, ou un seul fichier de police variable. Jusqu'à 5 Mo chacun."
     },
     "font.add.full": {
@@ -5141,7 +5249,7 @@
       "text": "Adresse à laquelle les formulaires envoient les réponses"
     },
     "forms.addressHint": {
-      "source": "7ede5ece",
+      "source": "114787dc",
       "text": "L'adresse du service pour les formulaires, commençant par https://. Les formulaires envoient l'adresse de la page de remerciement comme _next, l'objet comme _subject, et un champ caché _gotcha que seuls les robots remplissent, comme l'attendent Formspree, FormSubmit et Formcarry."
     },
     "forms.captcha": {
@@ -5196,6 +5304,62 @@
       "source": "257d087c",
       "text": "Formulaires"
     },
+    "freeServices.change": {
+      "source": "a1de2fdd",
+      "text": "Modifier"
+    },
+    "freeServices.changeLabel": {
+      "source": "62b0ddce",
+      "text": "Modifier {service}"
+    },
+    "freeServices.comments": {
+      "source": "52582af7",
+      "text": "Commentaires"
+    },
+    "freeServices.commentsText": {
+      "source": "3cb7eeda",
+      "text": "Les commentaires des visiteurs sous les pages, avec Giscus, Disqus ou Garrul."
+    },
+    "freeServices.forms": {
+      "source": "257d087c",
+      "text": "Formulaires"
+    },
+    "freeServices.formsText": {
+      "source": "200cd646",
+      "text": "Des formulaires de contact et d'inscription qui vous envoient chaque réponse par e-mail, avec Web3Forms ou Formspree."
+    },
+    "freeServices.intro": {
+      "source": "151c4035",
+      "text": "Votre site peut utiliser les offres gratuites de ces services. Chacun se met en place en quelques minutes."
+    },
+    "freeServices.off": {
+      "source": "275eb72d",
+      "text": "Pas encore en place"
+    },
+    "freeServices.on": {
+      "source": "43c06abc",
+      "text": "En place"
+    },
+    "freeServices.setUp": {
+      "source": "cc7373e9",
+      "text": "Le mettre en place"
+    },
+    "freeServices.setUpLabel": {
+      "source": "be89c6d3",
+      "text": "Mettre en place {service}"
+    },
+    "freeServices.stats": {
+      "source": "b233a828",
+      "text": "Statistiques de visites"
+    },
+    "freeServices.statsText": {
+      "source": "76f866b9",
+      "text": "Combien de personnes visitent quelles pages, sans cookies, avec GoatCounter ou Umami."
+    },
+    "freeServices.title": {
+      "source": "a7da9df9",
+      "text": "Services gratuits"
+    },
     "general.address": {
       "source": "700560f3",
       "text": "Adresse"
@@ -5205,7 +5369,7 @@
       "text": "Laisser les entreprises d'IA utiliser les pages du site pour entraîner leurs modèles"
     },
     "general.aiTrainingHint": {
-      "source": "bf21062f",
+      "source": "956c0145",
       "text": "Désactivé, le site demande aux robots avec lesquels les entreprises d'IA entraînent leurs modèles, comme GPTBot d'OpenAI, ClaudeBot d'Anthropic et Google-Extended, de ne pas le visiter. Les moteurs de recherche le référencent toujours, et les assistants peuvent toujours lire une page qu'on leur demande. Les robots respectueux suivent la demande, mais ce n'est pas un verrou : n'importe qui peut toujours lire les pages du site."
     },
     "general.contact": {
@@ -5233,7 +5397,7 @@
       "text": "Ouvrir les liens vers d'autres sites dans un nouvel onglet"
     },
     "general.externalLinksInNewTabHint": {
-      "source": "f0fb2a45",
+      "source": "b8791c0f",
       "text": "S'applique à chaque lien vers un autre site : menus, boutons et texte. Les liens vers les pages de ce site s'ouvrent dans le même onglet."
     },
     "general.favicon": {
@@ -5245,7 +5409,7 @@
       "text": "Code de la langue"
     },
     "general.languageHint": {
-      "source": "c62c2130",
+      "source": "e0554486",
       "text": "Par exemple en, es ou fr."
     },
     "general.logo": {
@@ -5337,11 +5501,11 @@
       "text": "Bloc synchronisé"
     },
     "goTo.label": {
-      "source": "018dcfda",
+      "source": "f56b18b8",
       "text": "Page, élément ou écran"
     },
     "goTo.placeholder": {
-      "source": "d7eaa675",
+      "source": "7c642e3d",
       "text": "Tapez une page, un élément ou un écran"
     },
     "goTo.title": {
@@ -5377,7 +5541,7 @@
       "text": "L'import a besoin de blocs que ce site n'a pas : {blocks}. Un développeur peut ajouter les blocs intégrés de Goodfellow à goodfellow.config.tsx."
     },
     "import.error.notExportFile": {
-      "source": "6c1e7496",
+      "source": "38ff975e",
       "text": "Ce fichier n'est pas un fichier d'export WordPress. Dans WordPress, allez dans Outils → Exporter, choisissez Tout le contenu et téléchargez le fichier."
     },
     "import.error.notWordPress": {
@@ -5397,11 +5561,11 @@
       "text": "Fichier d'export WordPress"
     },
     "import.fileHint": {
-      "source": "f1c43145",
+      "source": "c531c2cd",
       "text": "Dans WordPress, allez dans Outils → Exporter, choisissez Tout le contenu et téléchargez le fichier. Il apporte aussi les menus."
     },
     "import.intro": {
-      "source": "562fb6da",
+      "source": "45ee6232",
       "text": "Importez dans ce site les pages, articles, catégories, étiquettes, menus et médias d'un site WordPress. Les pages gardent leurs adresses, les articles deviennent une collection, et les anciennes adresses renvoient les visiteurs vers les nouvelles. Vous verrez ce qui sera importé avant que rien ne change."
     },
     "import.message": {
@@ -5485,7 +5649,7 @@
       "text": "Les pages et articles à la corbeille ne sont pas importés : {count}."
     },
     "import.note.more": {
-      "source": "c3ab2cf4",
+      "source": "a7b5f59a",
       "text": "{items} et {count} de plus"
     },
     "import.note.noMenus": {
@@ -5609,7 +5773,7 @@
       "text": "Ajouter une langue"
     },
     "languages.codeHint": {
-      "source": "991da6be",
+      "source": "2cc8e8d6",
       "text": "Par exemple es, fr ou pt-BR. Ses pages vont sous son code, donc il ne peut plus changer une fois publié."
     },
     "languages.codeHintPublished": {
@@ -5617,7 +5781,7 @@
       "text": "Ses pages sont sous {prefix}."
     },
     "languages.codeInvalid": {
-      "source": "d3bf03f7",
+      "source": "56e976c5",
       "text": "Utilisez un code de langue, par exemple es, fr ou pt-BR."
     },
     "languages.codeTaken": {
@@ -5817,11 +5981,11 @@
       "text": "Les fichiers Markdown n'ont pas pu être créés."
     },
     "markdownExport.intro": {
-      "source": "1412bf9e",
+      "source": "f73d0d70",
       "text": "Téléchargez les pages et les éléments des collections du site en fichiers Markdown, avec la médiathèque, pour les utiliser avec d'autres outils de sites web comme Hugo, Jekyll, Eleventy ou Astro, des applications de notes comme Obsidian, ou des outils d'IA."
     },
     "markdownExport.limits": {
-      "source": "451fe373",
+      "source": "02f23e63",
       "text": "Le Markdown garde les textes, les titres, les listes, les liens, les images et les tableaux. La mise en page du site, ses couleurs et polices, l'en-tête et le pied de page, et les blocs comme les formulaires, les calendriers et les listes d'éléments ne sont pas exportés. Pour tout garder, utilisez plutôt Télécharger une copie dans l'onglet Historique du site."
     },
     "markdownExport.links": {
@@ -6261,7 +6425,7 @@
       "text": "{name} est trop volumineux : {plugin} accepte des fichiers jusqu'à {size}."
     },
     "media.error.type": {
-      "source": "ae5ed269",
+      "source": "e2f0ed65",
       "text": "{name} ne peut pas être téléversé. Le site peut utiliser des images (JPEG, PNG, GIF, WebP, AVIF et SVG), des PDF, des documents bureautiques, de l'audio MP3, de la vidéo MP4 et WebM, et des sous-titres de vidéo (WebVTT)."
     },
     "media.error.unreadable": {
@@ -6565,7 +6729,7 @@
       "text": "Monter"
     },
     "menus.nameInvalid": {
-      "source": "a79c79d9",
+      "source": "3791f9c1",
       "text": "Utilisez des lettres minuscules, des chiffres et des tirets, et un nom qu'aucun autre menu n'utilise."
     },
     "menus.newLink": {
@@ -6697,7 +6861,7 @@
       "text": "Événements"
     },
     "newCollection.kindEventsHint": {
-      "source": "c75728a6",
+      "source": "cdcdc5b2",
       "text": "Chaque élément a une date et une heure, qui peuvent se répéter, un lieu et un résumé. Les blocs Calendrier les affichent, et les visiteurs peuvent les ajouter à leurs propres agendas."
     },
     "newCollection.message": {
@@ -6860,6 +7024,14 @@
       "source": "fc29a176",
       "text": "Demandez à l'un d'eux si quelque chose doit changer ici."
     },
+    "pageSettings.search": {
+      "source": "b690ac0a",
+      "text": "Plus pour les moteurs de recherche"
+    },
+    "pageSettings.sharing": {
+      "source": "c3fd1573",
+      "text": "Partage"
+    },
     "pages.column.address": {
       "source": "700560f3",
       "text": "Adresse"
@@ -6899,6 +7071,10 @@
     "pages.new": {
       "source": "ea6b15f8",
       "text": "Nouvelle page"
+    },
+    "pages.publishPage": {
+      "source": "6c6229a8",
+      "text": "Publier"
     },
     "pages.schedule": {
       "source": "a3f9baec",
@@ -7155,6 +7331,10 @@
     "plugins.earlyRefused": {
       "source": "b6d4588e",
       "text": "Le site n'a pas accepté {version} avant qu'elle ait {days} jours : {reasons}"
+    },
+    "plugins.earlyUnavailable": {
+      "source": "9a5bb242",
+      "text": "Le serveur du site ne peut pas vérifier les versions installées avant qu'elles aient {days} jours, donc {version} pourra être installée quand elle aura {days} jours."
     },
     "plugins.error.badFile": {
       "source": "bdf856cb",
@@ -7568,6 +7748,10 @@
       "source": "34cb943d",
       "text": "Voici la page telle que l'autre personne l'a laissée. Refaites vos modifications, ou remettez les vôtres pour les publier par-dessus les siennes."
     },
+    "publishPage.message": {
+      "source": "e9e76ed7",
+      "text": "Publier la page « {title} »"
+    },
     "redirects.add": {
       "source": "7dfc4484",
       "text": "Ajouter une redirection"
@@ -7679,6 +7863,10 @@
     "schedule.status.hides": {
       "source": "6d07ec16",
       "text": "Masqué après le {time}"
+    },
+    "schedule.status.notPublished": {
+      "source": "b17ad0ae",
+      "text": "Pas encore publiée"
     },
     "schedule.status.waiting": {
       "source": "462891ad",
@@ -7985,11 +8173,11 @@
       "text": "Une démo n'a pas de connexion à protéger."
     },
     "security.exposed": {
-      "source": "581bf9b1",
+      "source": "a3873c8f",
       "text": "Les éditeurs se connectent à l'adresse propre du site, où ses pages pourraient atteindre leur connexion : du code ajouté dans l'onglet Code, ou par un bloc, pourrait agir au nom de toute personne connectée. Une page de connexion à part, ci-dessous, la met hors de leur portée, et n'a pas besoin de domaine sur GitLab, Cloudflare Pages ou Vercel. Si vous avez un domaine et que l'hébergeur le permet, une adresse d'administration à part, dans l'écran Domaine, le fait aussi."
     },
     "security.local": {
-      "source": "a4bb3bba",
+      "source": "f9525e1e",
       "text": "La page de connexion se règle dans le panneau d'administration du site publié, où vous vous connectez avec GitHub, GitLab ou Bitbucket."
     },
     "settings.message": {
@@ -8109,7 +8297,7 @@
       "text": "Quand un lien vers cette page est partagé"
     },
     "shortcuts.goTo": {
-      "source": "fefa8cae",
+      "source": "8c519c7c",
       "text": "Aller à une page, un élément ou un écran"
     },
     "shortcuts.help": {
@@ -8133,7 +8321,7 @@
       "text": "Raccourcis clavier"
     },
     "shortcuts.typing": {
-      "source": "b7ffe8e5",
+      "source": "b9438e43",
       "text": "Annuler, Rétablir et ? fonctionnent en dehors des zones de texte, qui ont leur propre annulation."
     },
     "shortcuts.undo": {
@@ -8233,8 +8421,8 @@
       "text": "Rester connecté sur cet appareil"
     },
     "signIn.rememberHint": {
-      "source": "5dc47d0b",
-      "text": "Laissez ceci désactivé sur les ordinateurs partagés ou publics."
+      "source": "0333c669",
+      "text": "Désactivez ceci sur les ordinateurs partagés ou publics."
     },
     "signIn.submit": {
       "source": "744be623",
@@ -8245,7 +8433,7 @@
       "text": "Connectez-vous pour modifier ce site"
     },
     "signIn.token.apiTokenHint": {
-      "source": "cd2a656d",
+      "source": "bb39caa3",
       "text": "Utilisez ceci si vous ne pouvez pas créer de jeton pour le site lui-même. Collez l'adresse e-mail de votre compte Atlassian, deux-points, puis le jeton, par exemple name@example.org:ATATT3x…, et donnez au jeton le droit de lire et d'écrire les dépôts, les pull requests et les pipelines."
     },
     "signIn.token.chooseSite": {
@@ -8509,7 +8697,7 @@
       "text": "La copie n'a pas pu être créée. Vérifiez votre connexion et réessayez."
     },
     "siteHistory.download.intro": {
-      "source": "e347e056",
+      "source": "a67389bc",
       "text": "Un fichier zip des pages, éléments, paramètres et de la médiathèque du site tels qu'ils sont ici, avec la liste des blocs et extensions qu'il a ajoutés, à garder en lieu sûr. Le code du site n'y est pas."
     },
     "siteHistory.download.stored": {
@@ -8529,7 +8717,7 @@
       "text": "L'historique du site n'a pas pu être chargé. Vérifiez votre connexion et réessayez."
     },
     "siteHistory.intro": {
-      "source": "92bb75db",
+      "source": "95e47e39",
       "text": "Chaque publication qui a modifié les pages, les éléments, les réglages ou les médias du site, de la plus récente à la plus ancienne. Choisissez-en une pour voir à quoi ressemblait le site après elle et ce qui a changé depuis, puis restaurez tout le site tel qu'il était."
     },
     "siteHistory.loadingVersion": {
@@ -8537,7 +8725,7 @@
       "text": "Chargement du site tel qu'il était…"
     },
     "siteHistory.local": {
-      "source": "8c87019a",
+      "source": "fc0b2cfe",
       "text": "L'historique du site se trouve dans le panneau d'administration du site publié, où vous vous connectez avec GitHub, GitLab ou Bitbucket."
     },
     "siteHistory.page": {
@@ -8681,7 +8869,7 @@
       "text": "Le fichier n'a pas pu être créé. Vérifiez votre connexion et réessayez."
     },
     "siteTransfer.export.intro": {
-      "source": "07bd9d90",
+      "source": "b26cc1ac",
       "text": "Téléchargez les pages, collections, blocs synchronisés, menus, paramètres et médias de ce site en un seul fichier zip, exactement tels qu'ils sont conservés, pour les importer dans un autre site Goodfellow sans rien perdre. C'est le même fichier que crée Télécharger une copie dans l'Historique du site."
     },
     "siteTransfer.export.stored": {
@@ -8737,7 +8925,7 @@
       "text": "Ajouter un bloc modifie le code du site, l'éditeur le propose donc une fois le site reconstruit."
     },
     "siteTransfer.import.intro": {
-      "source": "54bd16ac",
+      "source": "85c1757a",
       "text": "Apportez un fichier créé avec Exporter pour un autre site Goodfellow, ou avec Télécharger une copie. Les pages, collections et médias arrivent exactement tels qu'ils étaient."
     },
     "siteTransfer.import.layout": {
@@ -8777,7 +8965,7 @@
       "text": "Les redirections que ce site n'a pas"
     },
     "siteTransfer.import.replaceWarning": {
-      "source": "b0541a6b",
+      "source": "2807e1b3",
       "text": "Tout ce que ce site a et que l'autre site n'a pas est supprimé à l'import : pages, collections, médias et paramètres. Les limites des éditeurs, les réglages de mise à jour, le stockage des médias et l'adresse du site restent tels quels. Vous pouvez revenir en arrière dans l'Historique du site."
     },
     "siteTransfer.import.settings": {
@@ -8953,7 +9141,7 @@
       "text": "Compter les visites"
     },
     "stats.intro": {
-      "source": "3b651b7c",
+      "source": "b805e47a",
       "text": "Comptez combien de personnes visitent les pages du site, et lesquelles, avec Plausible, Umami ou GoatCounter. Ils comptent sans cookies, et gardent les chiffres sur leurs propres sites, où vous les consultez. Les visites ne sont pas comptées quand vous essayez le site sur votre ordinateur, ni dans le panneau d'administration."
     },
     "stats.message": {
@@ -9069,7 +9257,7 @@
       "text": "Votre propre taille, par exemple 12px ou 1.5rem"
     },
     "style.customLengthInvalid": {
-      "source": "cc33154a",
+      "source": "1763c882",
       "text": "Écrivez un nombre avec px, rem, em ou %, par exemple 12px."
     },
     "style.default": {
@@ -9433,7 +9621,7 @@
       "text": "Retirer le lien"
     },
     "template.help": {
-      "source": "7e32e71b",
+      "source": "345baaee",
       "text": "La page de chaque élément utilise cette mise en page. Pour afficher les informations d'un élément, ajoutez un bloc Champ d'élément, ou tapez le nom d'un champ entre accolades dans n'importe quel texte :"
     },
     "template.message": {
@@ -9701,7 +9889,7 @@
       "text": "{title} est installé. Votre site l'affichera une fois reconstruit."
     },
     "themes.intro": {
-      "source": "fa96cbe2",
+      "source": "4de6eef8",
       "text": "Un thème change l'apparence de votre site : ses couleurs, ses polices et le style de ses blocs, et parfois son en-tête et son pied de page. Les thèmes ne sont que des réglages et des styles, sans code, et vous pouvez ensuite modifier tout ce qu'un thème définit dans Couleurs et polices et CSS personnalisé."
     },
     "themes.kept": {
@@ -9761,7 +9949,7 @@
       "text": "Retirer"
     },
     "themes.removeBody": {
-      "source": "74eb4a70",
+      "source": "74929b46",
       "text": "Les couleurs, polices et styles définis par le thème reviennent aux valeurs par défaut de Goodfellow, et son CSS est retiré. Ce que vous avez modifié vous-même, ainsi que votre en-tête et votre pied de page, restent tels quels."
     },
     "themes.removeMessage": {
@@ -9829,7 +10017,7 @@
       "text": "{title} est mis à jour vers la version {version}."
     },
     "themes.useLayout": {
-      "source": "b346516a",
+      "source": "d4d3ca56",
       "text": "Utiliser l'en-tête et le pied de page du thème à la place des vôtres. Vos menus, votre logo et vos coordonnées restent tels quels."
     },
     "themes.waiting": {
@@ -9984,6 +10172,10 @@
       "source": "2fad683d",
       "text": "Un problème est survenu. Réessayez dans un instant."
     },
+    "updates.error.publishing": {
+      "source": "29988663",
+      "text": "GitLab n'a pas laissé Goodfellow publier les mises à jour de ce site. L'un des propriétaires du site peut autoriser « Goodfellow publishing » à publier sur le site en ligne dans les paramètres du projet sur GitLab, puis réactiver les mises à jour."
+    },
     "updates.error.save": {
       "source": "26aa3803",
       "text": "La modification n'a pas pu être enregistrée. Réessayez dans un instant."
@@ -10000,6 +10192,10 @@
       "source": "bd347b98",
       "text": "Ses paquets n'ont pas pu être installés. La nuit suivante réessaie."
     },
+    "updates.failed.provenance": {
+      "source": "ff004d99",
+      "text": "Rien ne montre que Goodfellow {version} vient des versions officielles de Goodfellow, donc elle n'a pas été installée. Demandez à un développeur d'examiner les détails."
+    },
     "updates.failed.publish": {
       "source": "27a7628f",
       "text": "Quelqu'un a publié au même moment. La nuit suivante réessaie."
@@ -10013,8 +10209,8 @@
       "text": "Installer les correctifs maintenant"
     },
     "updates.fixes.ready": {
-      "source": "97998627",
-      "text": "Les correctifs jusqu'à Goodfellow {version} sont prêts. Ils s'installent d'eux-mêmes cette nuit, ou vous pouvez les installer maintenant."
+      "source": "041e3e0c",
+      "text": "Les correctifs jusqu'à Goodfellow {version} sont prêts. Les correctifs automatiques les installent quand ils ont deux jours, ou vous pouvez les installer maintenant."
     },
     "updates.fixes.readyPaused": {
       "source": "932081cf",
@@ -10081,7 +10277,7 @@
       "text": "Recherche de mises à jour…"
     },
     "updates.local": {
-      "source": "dd1b5d06",
+      "source": "8304ddda",
       "text": "Les mises à jour s'affichent dans le panneau d'administration du site publié, où vous vous connectez avec GitHub, GitLab ou Bitbucket."
     },
     "updates.missing": {
@@ -10241,7 +10437,7 @@
       "text": "Chargement de cette version…"
     },
     "versions.local": {
-      "source": "75bd192b",
+      "source": "fe6c56fd",
       "text": "L'historique des versions se trouve dans le panneau d'administration du site publié, où vous vous connectez avec GitHub, GitLab ou Bitbucket."
     },
     "versions.more": {
