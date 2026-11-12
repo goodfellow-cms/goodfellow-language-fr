@@ -1,6 +1,6 @@
 {
   "name": "goodfellow-language-fr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Goodfellow's admin panel in French: a language pack with every string of the admin panel, the editor's controls and Goodfellow's own blocks' labels.",
   "keywords": ["goodfellow-language", "goodfellow", "french", "français"],
   "license": "MIT",
