@@ -387,6 +387,9 @@
     "Events": {
       "text": "Événements"
     },
+    "Everyone": {
+      "text": "Tout le monde"
+    },
     "Everything": {
       "text": "Tout"
     },
@@ -407,6 +410,9 @@
     },
     "File": {
       "text": "Fichier"
+    },
+    "Find this page in it": {
+      "text": "Y trouver cette page"
     },
     "First": {
       "text": "Premier"
@@ -605,6 +611,9 @@
     },
     "Learn more": {
       "text": "En savoir plus"
+    },
+    "Leave this page out of it": {
+      "text": "En laisser cette page de côté"
     },
     "Left": {
       "text": "Gauche"
@@ -866,6 +875,9 @@
     },
     "Only pages under this address (empty for every page)": {
       "text": "Seulement les pages sous cette adresse (vide pour toutes les pages)"
+    },
+    "Only signed-in members": {
+      "text": "Seulement les membres connectés"
     },
     "Only the items this one links to, in": {
       "text": "Seulement les éléments vers lesquels celui-ci renvoie, dans"
@@ -1308,6 +1320,9 @@
     "The site's form service, from Site Settings": {
       "text": "Le service de formulaires du site, depuis les Paramètres du site"
     },
+    "The site's search": {
+      "text": "La recherche du site"
+    },
     "The video's own (wide for players)": {
       "text": "Celui de la vidéo (large pour les lecteurs)"
     },
@@ -1430,6 +1445,9 @@
     },
     "Where the link goes, such as /news": {
       "text": "Destination du lien, par exemple /actualites"
+    },
+    "Who can see this page": {
+      "text": "Qui peut voir cette page"
     },
     "Who said it": {
       "text": "Qui l'a dit"
@@ -1843,6 +1861,10 @@
     "address.invalid": {
       "source": "d57f0e2b",
       "text": "Utilisez des lettres minuscules, des chiffres et des tirets, avec / entre les parties, par exemple /qui-sommes-nous."
+    },
+    "address.mayBeItem": {
+      "source": "8a1512f9",
+      "text": "L'un des éléments de {collection} pourrait avoir cette adresse, et le panneau d'administration ne peut pas les lire pour le savoir, car ils viennent d'un autre système. Choisissez une autre adresse."
     },
     "address.reserved": {
       "source": "a9709dbc",
@@ -2656,6 +2678,10 @@
       "source": "e0ba6ef2",
       "text": "{name} a déjà été ajouté."
     },
+    "blocks.error.changed": {
+      "source": "30ea638d",
+      "text": "Les fichiers de ce bloc ne sont pas ceux que Goodfellow a publiés, donc il ne peut pas être ajouté. Réessayez plus tard, et prévenez la personne qui s'occupe du site si cela se reproduit."
+    },
     "blocks.error.file-exists": {
       "source": "debdab0f",
       "text": "Le site a déjà un autre fichier là où va ce bloc ({path}). Demandez à la personne qui s'occupe du site de l'ajouter."
@@ -2956,6 +2982,10 @@
       "source": "628e5a9e",
       "text": "Revenir en arrière"
     },
+    "checks.leftOutItems": {
+      "source": "8c91fb17",
+      "text": "Publier ceci retirerait {items} du site, car ils ne correspondraient plus aux réglages de la collection, ou une page prendrait l'adresse de l'un d'eux. Ils viennent d'un autre système, que le panneau d'administration ne peut pas modifier : revenez en arrière pour changer ce qui gêne, ou publiez quand même, et ils seront laissés de côté jusqu'à ce qu'ils correspondent."
+    },
     "checks.low-contrast": {
       "source": "c13831ae",
       "text": "Le texte en « {text} » est difficile à lire sur « {background} » : son contraste est de {ratio} pour 1, et un texte a besoin d'au moins 4,5 pour 1."
@@ -3059,6 +3089,14 @@
     "checks.unchosen-synced-block": {
       "source": "51728975",
       "text": "{place} contient un bloc Bloc synchronisé qui ne dit pas quel bloc synchronisé il affiche. Choisissez-en un dans ses réglages, ou retirez-le."
+    },
+    "checks.unreadSources": {
+      "source": "3223e381",
+      "text": "Les éléments de {collections} viennent d'un autre système, qui n'est pas joignable pour le moment, donc les liens vers leurs pages ne peuvent pas être vérifiés. Réessayez de publier dans quelques minutes."
+    },
+    "checks.unreadable": {
+      "source": "58b6cf34",
+      "text": "{file} ne peut pas être lu comme contenu du site, donc le site ne pourrait pas être construit avec, et ce panneau d'administration ne pourrait pas s'ouvrir pour le remettre en état. Annulez votre modification, ou demandez au développeur du site ce qu'il lui faut."
     },
     "checks.unsafe-link": {
       "source": "61f02a1a",
@@ -3256,6 +3294,10 @@
       "source": "c2c110f5",
       "text": "Pour enregistrer les éléments comme fichiers Markdown, ajoutez d'abord un champ de texte mis en forme."
     },
+    "collectionSettings.membersOnly": {
+      "source": "19d3dc16",
+      "text": "Seuls les membres connectés peuvent voir ces éléments et leurs pages. Ils sont aussi laissés de côté dans la recherche du site, les flux et les calendriers."
+    },
     "collectionSettings.message": {
       "source": "fdf2352c",
       "text": "Mettre à jour les réglages de {name}"
@@ -3279,6 +3321,18 @@
     "collectionSettings.sortOrder": {
       "source": "61fefc0a",
       "text": "Sens"
+    },
+    "collectionSettings.sourceElsewhere": {
+      "source": "28de184c",
+      "text": "Ses éléments viennent de {source}, que seule la construction du site peut lire, donc les liens vers leurs pages ne peuvent pas être déplacés vers une nouvelle adresse ici. Demandez à un développeur de la changer."
+    },
+    "collectionSettings.sourceUnread": {
+      "source": "446827ab",
+      "text": "Ses éléments ne peuvent pas être lus depuis {source} pour le moment, donc leurs pages ne peuvent pas encore être déplacées vers une nouvelle adresse. Réessayez dans quelques minutes."
+    },
+    "collectionSettings.sourced": {
+      "source": "3c94ca4c",
+      "text": "Les éléments de {name} viennent d'un autre système ({source}). Ces champs indiquent ce que le site en affiche : un élément dont les valeurs n'y correspondent pas est laissé de côté."
     },
     "collections.column.address": {
       "source": "7decab7f",
@@ -4044,6 +4098,10 @@
       "source": "b3289b4f",
       "text": "Sur Vercel : ouvrez le projet du site, allez dans Settings → Domains et ajoutez le domaine. Vercel affiche les enregistrements à ajouter chez votre registraire. Une fois que le site fonctionne à sa nouvelle adresse, indiquez-la dans Général → Adresse du site et publiez."
     },
+    "domain.error.changed": {
+      "source": "6b8c2959",
+      "text": "Le domaine du site sur {host} a changé entre-temps, donc rien n'a été modifié. Rechargez cet écran."
+    },
     "domain.error.invalid": {
       "source": "1762ed87",
       "text": "{host} n'accepte pas ce domaine."
@@ -4444,6 +4502,10 @@
       "source": "d7ac83cc",
       "text": "Remplissez {fields} avant de publier."
     },
+    "editEntry.sourced": {
+      "source": "af1e75b4",
+      "text": "Les éléments de {name} se modifient dans le système d'où ils viennent ({source}), pas ici."
+    },
     "editPage.backToPages": {
       "source": "605d38c3",
       "text": "Retour aux pages"
@@ -4711,6 +4773,18 @@
     "entries.empty": {
       "source": "0ba0c8ce",
       "text": "Il n'y a encore rien dans {name}."
+    },
+    "entries.sourceUnread": {
+      "source": "9ce9b30f",
+      "text": "Les éléments de {name} ne peuvent pas être lus depuis {source} pour le moment. Réessayez dans quelques minutes."
+    },
+    "entries.sourced": {
+      "source": "ed753299",
+      "text": "Les éléments de {name} viennent d'un autre système ({source}), où ils sont ajoutés et modifiés. Ils sont affichés ici tels que le site les affiche."
+    },
+    "entries.sourcedElsewhere": {
+      "source": "a965c541",
+      "text": "Les éléments de {name} viennent d'un autre système ({source}), où ils sont ajoutés et modifiés. Seul le serveur du site peut les lire, donc ils ne sont pas listés ici."
     },
     "entryName.invalid": {
       "source": "48d318c3",
@@ -5443,6 +5517,38 @@
     "general.phone": {
       "source": "4930944f",
       "text": "Téléphone"
+    },
+    "general.search": {
+      "source": "69881082",
+      "text": "Recherche du site"
+    },
+    "general.search.both": {
+      "source": "2d0d9099",
+      "text": "La meilleure de chaque côté"
+    },
+    "general.search.bothHint": {
+      "source": "280d1774",
+      "text": "Pagefind sur le site web et MiniSearch dans les applications. Les deux cherchent dans les mots de chaque page, mais pour les mêmes mots elles peuvent trouver des pages différentes, ou les afficher dans un autre ordre."
+    },
+    "general.search.minisearch": {
+      "source": "464be3a9",
+      "text": "La même sur le site web et dans les applications"
+    },
+    "general.search.minisearchHint": {
+      "source": "ea472121",
+      "text": "MiniSearch cherche dans les mots de chaque page, sur le site web et dans les applications, et les deux trouvent les mêmes pages pour les mêmes mots. Le site web télécharge tout l'index avant la première recherche, donc elle convient aux sites de quelques centaines de pages au plus."
+    },
+    "general.search.pagefind": {
+      "source": "a2d14ef2",
+      "text": "Le mieux pour les sites web"
+    },
+    "general.search.pagefindHint": {
+      "source": "2c72b53c",
+      "text": "Pagefind cherche dans les mots de chaque page sur le site web, en ne téléchargeant que ce dont chaque recherche a besoin, donc elle reste rapide sur les grands sites. Les applications trouvent les pages par leur titre seulement."
+    },
+    "general.searchHint": {
+      "source": "49d915d3",
+      "text": "Comment le bloc Recherche trouve les pages, sur le site web et dans les applications faites à partir du site."
     },
     "general.siteTitle": {
       "source": "eed3b091",
@@ -6427,6 +6533,10 @@
     "media.error.font": {
       "source": "02d9e9d5",
       "text": "{name} est une police. Les polices s'ajoutent dans Paramètres du site, sous Couleurs et polices."
+    },
+    "media.error.markup": {
+      "source": "ff8c70e8",
+      "text": "{name} commence comme une page web, donc certains hébergeurs l'ouvriraient comme une page à l'adresse du site. Enregistrez-le en PDF, ou en texte brut sans le balisage, et réessayez."
     },
     "media.error.size": {
       "source": "903da320",
@@ -9043,6 +9153,10 @@
     "siteTransfer.note.missingBlock": {
       "source": "ce296168",
       "text": "{name} ne fait pas partie des blocs de ce site. Il est utilisé dans {items}."
+    },
+    "siteTransfer.note.ownersBlocks": {
+      "source": "3f373b2a",
+      "text": "Des blocs réglés comme seuls les propriétaires le feraient arriveraient avec {items}, par exemple du HTML personnalisé utilisé tel quel, dont les scripts s'exécutent sur la page. Vérifiez-les d'abord."
     },
     "siteTransfer.note.plugins": {
       "source": "11a92cf9",

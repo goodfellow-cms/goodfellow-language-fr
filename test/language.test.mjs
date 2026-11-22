@@ -67,7 +67,7 @@ test("has nothing Goodfellow no longer says", () => {
   assert.deepEqual(stale, []);
 });
 
-test("keeps older releases' labels only while 0.11's English says them differently", () => {
+test("keeps older releases' labels only while today's English says them differently", () => {
   const known = new Set(sources.map((source) => source.key));
   for (const label of OLDER_LABELS) {
     assert.ok(manifest.labels[label], `${label} has no French`);
